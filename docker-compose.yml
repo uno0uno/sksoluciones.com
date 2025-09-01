@@ -15,6 +15,7 @@ services:
     networks:
       - sksoluciones-network
     restart: unless-stopped
+    command: ["node", "--max-old-space-size=4096", "/app/dist/server.js"]
 
 networks:
   sksoluciones-network:
