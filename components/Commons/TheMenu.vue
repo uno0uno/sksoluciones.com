@@ -2,9 +2,9 @@
 import { HomeIcon, InformationCircleIcon, BriefcaseIcon, Squares2X2Icon, PhoneIcon } from '@heroicons/vue/24/outline';
 
 const menuItems = [
-    { icon: HomeIcon, label: 'Laboratorios' },
-    { icon: PhoneIcon, label: 'Equipo' },
-    { icon: PhoneIcon, label: 'Eventos' },
+    // { icon: HomeIcon, label: 'Laboratorios' },
+    // { icon: PhoneIcon, label: 'Equipo' },
+    // { icon: PhoneIcon, label: 'Eventos' },
 ];
 </script>
 

@@ -3,18 +3,24 @@ import { XCircleIcon } from '@heroicons/vue/24/solid';
 import { useRoute } from 'vue-router';
 import { computed } from 'vue';
 
+const {
+    public: {
+        organizationName
+    }
+} = useRuntimeConfig();
+
+
 definePageMeta({
   layout: 'landing',
 });
 
 useHead({
-  title: 'Email Verification Failed | Waro Labs',
+  title: `Email Verification Failed | ${organizationName}`,
   meta: [{ name: 'robots', content: 'noindex, nofollow' }]
 });
 
 const route = useRoute();
 
-// Mapea los códigos de error de la URL a mensajes amigables
 const errorMessages = {
   invalid_token: 'El enlace de verificación que usaste no es válido. Por favor, intenta registrarte de nuevo.',
   expired_link: 'Este enlace de verificación ya ha sido utilizado o ha expirado.',
@@ -22,7 +28,6 @@ const errorMessages = {
   default: 'Ocurrió un error inesperado durante la verificación.'
 };
 
-// Determina qué mensaje mostrar basado en el parámetro 'error' de la URL
 const errorMessage = computed(() => {
   const errorCode = route.query.error;
   return errorMessages[errorCode] || errorMessages.default;

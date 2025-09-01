@@ -1,12 +1,20 @@
 <script setup>
 import { useHead } from '#imports';
 
+
+const {
+    public: {
+        organizationName
+    }
+} = useRuntimeConfig();
+
+
 definePageMeta({
     layout: 'landingv2'
 });
 
 useHead({
-  title: 'Política de Privacidad | Waro Labs',
+  title: `Política de Privacidad | ${organizationName}`,
   meta: [
     { name: 'robots', content: 'noindex, nofollow' }
   ]
@@ -19,7 +27,7 @@ useHead({
     <h1 class="text-4xl font-bold mb-6">Política de Privacidad</h1>
 
     <p>
-      En Waro Labs, nos comprometemos a proteger su privacidad. Esta política de privacidad describe cómo recopilamos, utilizamos y protegemos su información personal. Al utilizar nuestros servicios, usted acepta las prácticas descritas en esta política.
+      En **{{ organizationName }}**, nos comprometemos a proteger su privacidad. Esta política de privacidad describe cómo recopilamos, utilizamos y protegemos su información personal. Al utilizar nuestros servicios, usted acepta las prácticas descritas en esta política.
     </p>
 
     <h2 class="text-2xl font-semibold mt-8 mb-4">1. Información que Recopilamos</h2>
