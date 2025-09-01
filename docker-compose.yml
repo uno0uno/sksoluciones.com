@@ -15,8 +15,6 @@ services:
     networks:
       - sksoluciones-network
     restart: unless-stopped
-    # Sobrescribe el CMD del Dockerfile con el nuevo comando
-    command: ["node", "--max-old-space-size=4096", ".output/server/index.mjs"]
 
 networks:
   sksoluciones-network:

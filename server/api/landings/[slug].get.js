@@ -7,9 +7,7 @@ export default defineEventHandler(async (event) => {
     } = useRuntimeConfig();
 
     const slug = getRouterParam(event, 'slug');
-
-    console.log('Requested slug:', slug);
-    console.log('Backend Base URL:', backendBaseUrl);
+ 
     if (!slug) {
         throw createError({
             statusCode: 400,
