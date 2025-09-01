@@ -10,11 +10,6 @@ services:
       - "3002:3002"
     environment:
       - NODE_ENV=${NODE_ENV}
-      - NUXT_PRIVATE_DB_USER=${NUXT_PRIVATE_DB_USER}
-      - NUXT_PRIVATE_DB_HOST=${NUXT_PRIVATE_DB_HOST}
-      - NUXT_PRIVATE_DB_NAME=${NUXT_PRIVATE_DB_NAME}
-      - NUXT_PRIVATE_DB_PASSWORD=${NUXT_PRIVATE_DB_PASSWORD}
-      - NUXT_PRIVATE_DB_PORT=${NUXT_PRIVATE_DB_PORT}
     volumes:
       - nuxt-data:/app/storage
     networks:
