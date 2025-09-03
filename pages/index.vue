@@ -13,3 +13,8 @@ definePageMeta({
     </div>
   </div>
 </template>
+
+
+<style>
+  /* Tu código CSS aquí */
+</style>
