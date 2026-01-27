@@ -41,6 +41,10 @@ html, body {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Inter', sans-serif; /* Se aplica Inter para los encabezados */
 }
@@ -76,6 +80,37 @@ h1, h2, h3, h4, h5, h6 {
 .global-style{
   @apply
   px-4;
+}
+
+/* ==================================== */
+/* Page & Layout Transitions            */
+/* ==================================== */
+
+/* Page transition - fade + slide up */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(-12px);
+}
+
+/* Layout transition - fade */
+.layout-enter-active,
+.layout-leave-active {
+  transition: opacity 0.25s ease;
+}
+
+.layout-enter-from,
+.layout-leave-to {
+  opacity: 0;
 }
 
 /* ==================================== */

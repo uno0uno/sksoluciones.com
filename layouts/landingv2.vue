@@ -10,9 +10,9 @@
 
     <CommonsTheHeader />
 
-    <div class="pb-2 sm:px-4 md:px-16 w-full h-full">
+    <main class="w-full h-full flex-1">
       <slot />
-    </div>
+    </main>
 
     <CommonsTheFooter />
 
