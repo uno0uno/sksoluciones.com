@@ -1,13 +1,17 @@
 // server/api/landings/[slug].get.js
 
+import jwt from 'jsonwebtoken';
+
 export default defineEventHandler(async (event) => {
 
     const {
-        backendBaseUrl
+        backendBaseUrl,
+        jwtSecret,
+        tokenBackend
     } = useRuntimeConfig();
 
     const slug = getRouterParam(event, 'slug');
- 
+
     if (!slug) {
         throw createError({
             statusCode: 400,
@@ -16,22 +20,17 @@ export default defineEventHandler(async (event) => {
         });
     }
 
-    const authorizationHeader = getHeader(event, 'authorization');
+    const serviceToken = jwt.sign({ backendId: tokenBackend }, jwtSecret, { expiresIn: '5m' });
     const backendUrl = `${backendBaseUrl}/api/landings/${slug}`;
 
     try {
-        const fetchOptions = {
+        const response = await $fetch(backendUrl, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
+                'Authorization': `Bearer ${serviceToken}`
             },
-        };
-
-        if (authorizationHeader) {
-            fetchOptions.headers['Authorization'] = authorizationHeader;
-        }
-
-        const response = await $fetch(`${backendUrl}`, fetchOptions);
+        });
         return response;
 
     } catch (error) {
