@@ -43,9 +43,7 @@ const {
 );
 
 watch(pending, (newPending) => {
-    if (!newPending) {
-        globalLoading.value = true;
-    }
+    globalLoading.value = newPending;
 });
 </script>
 
