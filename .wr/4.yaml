@@ -1,0 +1,48 @@
+issue: 4
+title: "Batch 1: Tokens de color y tipografía SK"
+repo: sksoluciones.com
+repo_remote: uno0uno/sksoluciones.com
+cwd: /Users/saifer/Documents/WEBS/sksoluciones.com
+stack: nuxt
+branch: wr-4-tokens-color-tipografia
+
+paths:
+  - tailwind.config.js
+  - assets/css/main.scss
+  - package.json
+  - package-lock.json
+
+ac:
+  - "Agregar roles de color en theme.extend: ink, ink-muted, surface, surface-elevated, on-ink, on-ink-muted, action, action-hover y line."
+  - "Conservar font-principal y añadir font-body/font-display sin reemplazar los defaults de Tailwind."
+  - "Definir roles tipográficos display, title, body, label y caption con tamaño, line-height y tracking explícitos."
+  - "Usar Inter como body/UI y Fraunces variable WOFF2 como display mediante dependencia local @fontsource-variable/fraunces."
+  - "Reemplazar #9C92AC de background-plus por ink y eliminar background-dots-white si sigue sin consumidores."
+  - "Tokenizar focus/autofill de main.scss sin cambiar clases de home, header o footer."
+  - "Reportar contraste: ink/surface 15.34; ink-muted/surface 7.77; on-ink/ink 14.82; on-ink-muted/ink 9.07; white/action 4.65."
+  - "No usar action #9A6B2F como texto normal sobre surface (4.27, falla AA); usar blanco sobre action."
+
+out_of_scope:
+  - "Migrar slate/stone en pages/index.vue, TheHeader.vue o TheFooter.vue (issue #5)."
+  - "Cambiar layout, copy, landings, componentes Marketing o introducir dark mode."
+  - "Aplicar la fuente display a toda la home antes del batch #5."
+
+hints:
+  entry: "tailwind.config.js:11-14; assets/css/main.scss:8-50,120-168"
+  pattern: "Tailwind 3.3: theme.extend; CSS custom properties en :root; conservar font-principal."
+  font: "Instalar @fontsource-variable/fraunces con npm y cargar su CSS/WOFF2 localmente; no activar Google Fonts."
+  colors: "ink #0B1F33; ink-muted #3D4F5F; surface #F7F5F2; elevated #FFFFFF; on-ink #F4F1EC; on-ink-muted #B8C0C8; action #9A6B2F; hover #7E5624; line #D9D3C9."
+  tests: "No hay test automatizado dirigido a tokens; no ejecutar build/lint/typecheck. Validación visual y contraste quedan documentados en el PR."
+
+risk:
+  sensitive: false
+  areas:
+    - "theme.fontFamily actual reemplaza defaults; mover a extend sin romper font-principal."
+    - "Nueva dependencia de fuente y tamaño de asset."
+    - "PR #2 está abierto, pero #4 no toca sus archivos y puede partir de main."
+
+skip:
+  audits: [security]
+
+next:
+  after_pr: "/wr-research uno0uno/sksoluciones.com#5 --delta"
