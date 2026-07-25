@@ -108,8 +108,8 @@ const corporateServices = [
   <div class="w-full">
 
     <!-- Hero Section -->
-    <section id="inicio" class="relative bg-slate-900 text-white overflow-hidden">
-      <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"></div>
+    <section id="inicio" class="relative bg-ink text-on-ink overflow-hidden">
+      <div class="absolute inset-0 bg-ink"></div>
       <div class="absolute inset-0 opacity-5">
         <div class="background-plus"></div>
       </div>
@@ -117,15 +117,15 @@ const corporateServices = [
         <div class="max-w-3xl">
           <h1 class="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-extrabold leading-tight tracking-tight">
             Protegemos su patrimonio, su legado y su
-            <span class="text-stone-400">futuro financiero.</span>
+            <span class="text-action">futuro financiero.</span>
           </h1>
-          <p class="mt-6 text-lg sm:text-xl text-stone-300 leading-relaxed max-w-2xl">
+          <p class="mt-6 text-lg sm:text-xl text-on-ink-muted leading-relaxed max-w-2xl">
             Soluciones legales expertas en Fraudes Bancarios, Sucesiones, Planificación Patrimonial e Insolvencia. Más de 50 casos activos contra la banca colombiana. Defendemos sus derechos con experiencia, compromiso y resultados.
           </p>
           <div class="mt-8">
             <NuxtLink
               to="/landing/asesoria-legal-gratis"
-              class="inline-flex items-center justify-center px-8 py-4 bg-white text-slate-900 font-semibold rounded-lg hover:bg-stone-100 transition-colors duration-200 text-sm sm:text-base"
+              class="inline-flex items-center justify-center px-8 py-4 bg-action text-white font-semibold rounded-lg hover:bg-action-hover transition-colors duration-200 text-sm sm:text-base"
             >
               Asesoría Inicial
             </NuxtLink>
@@ -135,18 +135,18 @@ const corporateServices = [
     </section>
 
     <!-- Authority Stats Band -->
-    <section class="bg-slate-800 text-white border-t border-slate-700">
+    <section class="bg-ink text-on-ink border-t border-on-ink/10">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12">
-        <p class="text-xs font-semibold uppercase tracking-widest text-stone-400 mb-6 text-center">
+        <p class="text-xs font-semibold uppercase tracking-widest text-on-ink-muted mb-6 text-center">
           SK Soluciones Legales en cifras
         </p>
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8">
           <div
             v-for="(stat, index) in authorityStats"
             :key="index"
-            class="flex items-start gap-3 text-sm sm:text-base text-stone-200"
+            class="flex items-start gap-3 text-sm sm:text-base text-on-ink"
           >
-            <span class="w-1.5 h-1.5 bg-stone-400 rounded-full mt-2 shrink-0"></span>
+            <span class="w-1.5 h-1.5 bg-action rounded-full mt-2 shrink-0"></span>
             <span>{{ stat }}</span>
           </div>
         </div>
@@ -154,14 +154,14 @@ const corporateServices = [
     </section>
 
     <!-- Specialties Section -->
-    <section id="especialidades" class="bg-white py-16 sm:py-20 lg:py-24">
+    <section id="especialidades" class="bg-surface-elevated py-16 sm:py-20 lg:py-24">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12 sm:mb-16">
-          <p class="text-sm font-semibold uppercase tracking-widest text-stone-500 mb-3">Nuestras Especialidades</p>
-          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900">
+          <p class="text-sm font-semibold uppercase tracking-widest text-ink-muted mb-3">Nuestras Especialidades</p>
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-ink">
             Tres Grandes Áreas de Experticia
           </h2>
-          <p class="mt-4 text-stone-600 max-w-2xl mx-auto text-base sm:text-lg">
+          <p class="mt-4 text-ink-muted max-w-2xl mx-auto text-base sm:text-lg">
             El núcleo de nuestra firma, dedicado a proteger lo que más importa para usted y su familia.
           </p>
         </div>
@@ -170,20 +170,20 @@ const corporateServices = [
           <div
             v-for="(specialty, index) in specialties"
             :key="index"
-            class="bg-slate-50 rounded-2xl p-6 sm:p-8 border border-slate-100 hover:border-slate-300 hover:shadow-lg transition-all duration-300"
+            class="bg-surface rounded-2xl p-6 sm:p-8 border border-line hover:border-ink/30 hover:shadow-lg transition-all duration-300"
           >
-            <div class="w-12 h-12 bg-slate-900 rounded-xl flex items-center justify-center mb-6">
-              <component :is="specialty.icon" class="h-6 w-6 text-white" />
+            <div class="w-12 h-12 bg-ink rounded-xl flex items-center justify-center mb-6">
+              <component :is="specialty.icon" class="h-6 w-6 text-on-ink" />
             </div>
-            <h3 class="text-lg sm:text-xl font-bold text-slate-900 mb-3">{{ specialty.title }}</h3>
-            <p class="text-stone-600 text-sm sm:text-base mb-5 leading-relaxed">{{ specialty.description }}</p>
+            <h3 class="text-lg sm:text-xl font-bold text-ink mb-3">{{ specialty.title }}</h3>
+            <p class="text-ink-muted text-sm sm:text-base mb-5 leading-relaxed">{{ specialty.description }}</p>
             <ul class="space-y-3">
               <li
                 v-for="(item, i) in specialty.items"
                 :key="i"
-                class="flex items-start gap-3 text-sm text-stone-600"
+                class="flex items-start gap-3 text-sm text-ink-muted"
               >
-                <span class="w-1.5 h-1.5 bg-slate-900 rounded-full mt-2 shrink-0"></span>
+                <span class="w-1.5 h-1.5 bg-action rounded-full mt-2 shrink-0"></span>
                 <span>{{ item }}</span>
               </li>
             </ul>
@@ -193,14 +193,14 @@ const corporateServices = [
     </section>
 
     <!-- Practice Areas Section -->
-    <section id="areas" class="bg-slate-50 py-16 sm:py-20 lg:py-24">
+    <section id="areas" class="bg-surface py-16 sm:py-20 lg:py-24">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12 sm:mb-16">
-          <p class="text-sm font-semibold uppercase tracking-widest text-stone-500 mb-3">Áreas de Práctica</p>
-          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900">
+          <p class="text-sm font-semibold uppercase tracking-widest text-ink-muted mb-3">Áreas de Práctica</p>
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-ink">
             Práctica Complementaria
           </h2>
-          <p class="mt-4 text-stone-600 max-w-2xl mx-auto text-base sm:text-lg">
+          <p class="mt-4 text-ink-muted max-w-2xl mx-auto text-base sm:text-lg">
             Soluciones adicionales para una atención legal integral.
           </p>
         </div>
@@ -209,19 +209,19 @@ const corporateServices = [
           <div
             v-for="(area, index) in practiceAreas"
             :key="index"
-            class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-100 hover:border-slate-300 hover:shadow-lg transition-all duration-300"
+            class="bg-surface-elevated rounded-2xl p-6 sm:p-8 border border-line hover:border-ink/30 hover:shadow-lg transition-all duration-300"
           >
-            <div class="w-12 h-12 bg-slate-900 rounded-xl flex items-center justify-center mb-6">
-              <component :is="area.icon" class="h-6 w-6 text-white" />
+            <div class="w-12 h-12 bg-ink rounded-xl flex items-center justify-center mb-6">
+              <component :is="area.icon" class="h-6 w-6 text-on-ink" />
             </div>
-            <h3 class="text-lg sm:text-xl font-bold text-slate-900 mb-4">{{ area.title }}</h3>
+            <h3 class="text-lg sm:text-xl font-bold text-ink mb-4">{{ area.title }}</h3>
             <ul class="space-y-3">
               <li
                 v-for="(item, i) in area.items"
                 :key="i"
-                class="flex items-start gap-3 text-sm text-stone-600"
+                class="flex items-start gap-3 text-sm text-ink-muted"
               >
-                <span class="w-1.5 h-1.5 bg-slate-900 rounded-full mt-2 shrink-0"></span>
+                <span class="w-1.5 h-1.5 bg-action rounded-full mt-2 shrink-0"></span>
                 <span>{{ item }}</span>
               </li>
             </ul>
@@ -231,20 +231,20 @@ const corporateServices = [
     </section>
 
     <!-- Corporate Services Section -->
-    <section id="corporativo" class="bg-slate-900 text-white py-16 sm:py-20 lg:py-24">
+    <section id="corporativo" class="bg-ink text-on-ink py-16 sm:py-20 lg:py-24">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div>
-            <p class="text-sm font-semibold uppercase tracking-widest text-stone-400 mb-3">Para Empresas</p>
+            <p class="text-sm font-semibold uppercase tracking-widest text-on-ink-muted mb-3">Para Empresas</p>
             <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold">
               Servicios Corporativos
             </h2>
-            <p class="mt-4 text-stone-300 text-base sm:text-lg leading-relaxed">
+            <p class="mt-4 text-on-ink-muted text-base sm:text-lg leading-relaxed">
               Aliados estratégicos para el crecimiento de su negocio. Acompañamiento legal preventivo para empresas y emprendimientos.
             </p>
             <div class="mt-6 flex items-center gap-3">
-              <BuildingOffice2Icon class="h-8 w-8 text-stone-400" />
-              <span class="text-lg font-semibold text-stone-300">Blindaje Jurídico Empresarial</span>
+              <BuildingOffice2Icon class="h-8 w-8 text-action" />
+              <span class="text-lg font-semibold text-on-ink">Blindaje Jurídico Empresarial</span>
             </div>
           </div>
 
@@ -252,10 +252,10 @@ const corporateServices = [
             <div
               v-for="(service, index) in corporateServices"
               :key="index"
-              class="bg-slate-800 rounded-xl p-6 border border-slate-700 hover:border-slate-500 transition-colors duration-200"
+              class="bg-ink rounded-xl p-6 border border-on-ink/20 hover:border-on-ink/40 transition-colors duration-200"
             >
               <h3 class="text-base sm:text-lg font-semibold mb-2">{{ service.title }}</h3>
-              <p class="text-stone-400 text-sm leading-relaxed">{{ service.description }}</p>
+              <p class="text-on-ink-muted text-sm leading-relaxed">{{ service.description }}</p>
             </div>
           </div>
         </div>
@@ -263,19 +263,19 @@ const corporateServices = [
     </section>
 
     <!-- CTA / Contact Section -->
-    <section id="contacto" class="bg-white py-16 sm:py-20 lg:py-24">
+    <section id="contacto" class="bg-surface-elevated py-16 sm:py-20 lg:py-24">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-3xl mx-auto text-center">
-          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900">
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-ink">
             ¿Necesita representación jurídica?
           </h2>
-          <p class="mt-4 text-stone-600 text-base sm:text-lg leading-relaxed">
+          <p class="mt-4 text-ink-muted text-base sm:text-lg leading-relaxed">
             Agende su asesoría inicial. Analizamos su caso, determinamos viabilidad real y le entregamos un diagnóstico claro con hoja de ruta.
           </p>
           <div class="mt-10">
             <NuxtLink
               to="/landing/asesoria-legal-gratis"
-              class="inline-flex items-center gap-3 px-10 py-4 bg-slate-900 text-white font-semibold rounded-lg hover:bg-slate-800 transition-colors duration-200 text-base"
+              class="inline-flex items-center gap-3 px-10 py-4 bg-action text-white font-semibold rounded-lg hover:bg-action-hover transition-colors duration-200 text-base"
             >
               Solicitar Asesoría Inicial
             </NuxtLink>

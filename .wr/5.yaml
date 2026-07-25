@@ -1,0 +1,44 @@
+issue: 5
+title: "Batch 2: Aplicar tokens a home y chrome"
+repo: sksoluciones.com
+repo_remote: uno0uno/sksoluciones.com
+cwd: /Users/saifer/Documents/WEBS/sksoluciones.com
+stack: nuxt
+branch: wr-5-aplicar-tokens-home
+
+paths:
+  - pages/index.vue
+  - components/Commons/TheHeader.vue
+  - components/Commons/TheFooter.vue
+
+ac:
+  - "Reemplazar slate/stone/gray en los 3 paths por tokens ink/surface/on-ink/line/action del batch #4."
+  - "CTAs primarios (header desktop+mobile, footer, hero, contacto) usan bg-action text-white hover:bg-action-hover."
+  - "Fondos claros: bg-surface / bg-surface-elevated; paneles oscuros: bg-ink; texto oscuro text-ink / text-ink-muted; texto sobre ink: text-on-ink / text-on-ink-muted."
+  - "Simplificar gradientes slate a bg-ink; icon chips bg-ink + text-on-ink; bordes border-line."
+  - "rg 'slate-|stone-|gray-' en los 3 paths = 0 matches."
+  - "Copy y URL /landing/asesoria-legal-gratis intactos (brief #1 / PR #2 content preserved)."
+  - "Light only; sin dark mode."
+
+out_of_scope:
+  - "Layout/IA: grid 4-col, banda cifras numérica, brand en hero, focus pass (#6)."
+  - "Landings, Marketing/*, cambios de tokens en tailwind/main.scss (#4)."
+  - "Editar package.json / fonts."
+
+hints:
+  entry: "TheHeader.vue:49,89; TheFooter.vue:139; pages/index.vue hero+contacto CTAs"
+  pattern: "Mapa delta #5: slate-900→ink; stone-600→ink-muted; white on dark→on-ink; CTA→action"
+  base: "Antes de editar: mergear PR #2 (copy) + PR #7 (tokens) a main, o branch desde wr-4 y merge wr-1-copy-posicionamiento-sk. No editar sobre main sin tokens."
+  tests: "rg 'slate-|stone-|gray-' pages/index.vue components/Commons/TheHeader.vue components/Commons/TheFooter.vue; checklist visual desktop/móvil en PR. No build/lint."
+
+risk:
+  sensitive: false
+  areas:
+    - "PR #2 y #7 abiertos; conflictos en los mismos 3 archivos si no se unifica base."
+    - "No inventar hex; solo clases token del #4."
+
+skip:
+  audits: [security, ux, typography]
+
+next:
+  after_pr: "/wr-research uno0uno/sksoluciones.com#6 --delta"
