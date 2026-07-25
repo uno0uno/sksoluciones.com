@@ -48,7 +48,7 @@ const toggleMenu = () => {
             :to="ctaLink"
             class="ml-3 px-5 py-2 text-sm font-semibold bg-white text-slate-900 rounded-lg hover:bg-stone-100 transition-colors duration-200"
           >
-            Asesoría Gratis
+            Asesoría Inicial
           </NuxtLink>
         </nav>
 
@@ -88,7 +88,7 @@ const toggleMenu = () => {
               @click="mobileMenuOpen = false"
               class="mx-4 mt-3 px-5 py-3 text-sm font-semibold bg-white text-slate-900 rounded-lg hover:bg-stone-100 transition-colors duration-200 text-center"
             >
-              Asesoría Gratis
+              Asesoría Inicial
             </NuxtLink>
           </div>
         </nav>
