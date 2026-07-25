@@ -1,35 +1,47 @@
 <script setup>
-import { ShieldCheckIcon, DocumentTextIcon, ArrowPathIcon, ScaleIcon, UserGroupIcon, TruckIcon, BuildingOffice2Icon } from '@heroicons/vue/24/outline';
+import { ShieldCheckIcon, DocumentTextIcon, ArrowPathIcon, ScaleIcon, UserGroupIcon, TruckIcon, BuildingOffice2Icon, BookOpenIcon } from '@heroicons/vue/24/outline';
 
 definePageMeta({
   layout: 'landingv2',
 });
 
+useSeoMeta({
+  title: 'SK Soluciones Legales | Abogado en Fraude Bancario, Sucesiones y Patrimonial | Bogotá, Colombia',
+});
+
+const authorityStats = [
+  '+50 casos activos contra la banca colombiana',
+  '10+ años de experiencia como abogado litigante',
+  'Litigio contra las principales entidades del sistema financiero',
+];
+
 const specialties = [
   {
     icon: ShieldCheckIcon,
     title: 'Protección contra Fraudes Bancarios',
-    description: 'Recuperamos su dinero y defendemos sus derechos ante abusos del sistema financiero.',
+    description: 'Recuperamos su dinero cuando el banco no lo protegió. Litigio ante la Superintendencia Financiera de Colombia contra los principales bancos del país.',
     items: [
-      'Casos de suplantación de identidad.',
-      'Reclamaciones por transacciones no autorizadas y fraudes electrónicos.',
-      'Defensa del consumidor financiero y responsabilidad bancaria.',
+      'Vishing, phishing, pharming y SIM swapping.',
+      'Cambiazo de tarjeta, PSE fraudulento y transferencias no autorizadas.',
+      'Defensa del consumidor financiero ante la SFC.',
+      'Retiro de reportes negativos en DataCrédito y TransUnión.',
     ],
   },
   {
     icon: DocumentTextIcon,
     title: 'Derecho Sucesoral y Planeación Patrimonial',
-    description: 'Garantizamos la transmisión segura de bienes y la armonía familiar.',
+    description: 'Protegemos su patrimonio hoy para asegurar el futuro de su familia. Sucesiones, planificación patrimonial y optimización tributaria de herencias.',
     items: [
-      'Sucesiones (Causa de muerte): Trámites notariales y judiciales para herencias.',
-      'Planeación en vida: Fideicomisos civiles, repartición de bienes en vida y protección de patrimonio.',
-      'Testamentos y donaciones.',
+      'Sucesiones notariales y judiciales.',
+      'Transferencia de bienes en vida: donación, compraventa familiar, SAS familiar, fideicomiso civil.',
+      'Testamentos, testamentos vitales y planificación patrimonial.',
+      'Optimización de ganancia ocasional por herencia (Art. 307 E.T.).',
     ],
   },
   {
     icon: ArrowPathIcon,
     title: 'Ley de Insolvencia y Recuperación Financiera',
-    description: 'Una segunda oportunidad legal para reorganizar sus finanzas y proteger su sustento.',
+    description: 'Reorganización de deudas y protección legal frente a acreedores. Insolvencia de persona natural (Ley 1564) y reorganización empresarial.',
     items: [
       'Insolvencia de Persona Natural No Comerciante: Negociación de deudas y acuerdos de pago.',
       'Insolvencia Empresarial: Procesos de reorganización y liquidación para comerciantes y empresas en crisis.',
@@ -63,6 +75,15 @@ const practiceAreas = [
       'Defensa técnica en comparendos y fotodetecciones.',
       'Procesos administrativos ante organismos de tránsito.',
       'Responsabilidad civil en accidentes de tránsito.',
+    ],
+  },
+  {
+    icon: BookOpenIcon,
+    title: 'Derecho Civil',
+    items: [
+      'Contratos, obligaciones y responsabilidad civil.',
+      'Cobros ejecutivos y procesos de mínima, menor y mayor cuantía.',
+      'Restitución de inmueble arrendado y procesos declarativos.',
     ],
   },
 ];
@@ -99,15 +120,34 @@ const corporateServices = [
             <span class="text-stone-400">futuro financiero.</span>
           </h1>
           <p class="mt-6 text-lg sm:text-xl text-stone-300 leading-relaxed max-w-2xl">
-            Soluciones legales expertas en Fraudes Bancarios, Sucesiones e Insolvencia. Defendemos sus derechos con experiencia, compromiso y resultados.
+            Soluciones legales expertas en Fraudes Bancarios, Sucesiones, Planificación Patrimonial e Insolvencia. Más de 50 casos activos contra la banca colombiana. Defendemos sus derechos con experiencia, compromiso y resultados.
           </p>
           <div class="mt-8">
             <NuxtLink
               to="/landing/asesoria-legal-gratis"
               class="inline-flex items-center justify-center px-8 py-4 bg-white text-slate-900 font-semibold rounded-lg hover:bg-stone-100 transition-colors duration-200 text-sm sm:text-base"
             >
-              Asesoría Gratis
+              Asesoría Inicial
             </NuxtLink>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Authority Stats Band -->
+    <section class="bg-slate-800 text-white border-t border-slate-700">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12">
+        <p class="text-xs font-semibold uppercase tracking-widest text-stone-400 mb-6 text-center">
+          SK Soluciones Legales en cifras
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8">
+          <div
+            v-for="(stat, index) in authorityStats"
+            :key="index"
+            class="flex items-start gap-3 text-sm sm:text-base text-stone-200"
+          >
+            <span class="w-1.5 h-1.5 bg-stone-400 rounded-full mt-2 shrink-0"></span>
+            <span>{{ stat }}</span>
           </div>
         </div>
       </div>
@@ -227,17 +267,17 @@ const corporateServices = [
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-3xl mx-auto text-center">
           <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900">
-            ¿Necesita asesoría legal?
+            ¿Necesita representación jurídica?
           </h2>
           <p class="mt-4 text-stone-600 text-base sm:text-lg leading-relaxed">
-            Cuéntenos su caso. Nuestro equipo de expertos está listo para ayudarle a encontrar la mejor solución.
+            Agende su asesoría inicial. Analizamos su caso, determinamos viabilidad real y le entregamos un diagnóstico claro con hoja de ruta.
           </p>
           <div class="mt-10">
             <NuxtLink
               to="/landing/asesoria-legal-gratis"
               class="inline-flex items-center gap-3 px-10 py-4 bg-slate-900 text-white font-semibold rounded-lg hover:bg-slate-800 transition-colors duration-200 text-base"
             >
-              Solicitar Asesoría Gratis
+              Solicitar Asesoría Inicial
             </NuxtLink>
           </div>
         </div>

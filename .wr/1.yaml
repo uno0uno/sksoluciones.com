@@ -1,0 +1,40 @@
+issue: 1
+title: "Alinear copy de la web con posicionamiento SK (recomendaciones Carlos)"
+repo: sksoluciones.com
+repo_remote: uno0uno/sksoluciones.com
+cwd: /Users/saifer/Documents/WEBS/sksoluciones.com
+stack: nuxt
+branch: wr-1-copy-posicionamiento-sk
+
+paths:
+  - pages/index.vue
+  - components/Commons/TheHeader.vue
+  - components/Commons/TheFooter.vue
+
+ac:
+  - '"Asesoria Gratis" -> "Asesoria Inicial" en header (desktop+mobile), hero, footer y CTA cierre (URL asesoria-legal-gratis sin cambiar)'
+  - Hero: agrega Planificacion Patrimonial + "+50 casos activos contra la banca colombiana"
+  - Fraudes Bancarios: subtitulo (SFC + principales bancos) y bullets tecnicos (vishing/phishing/pharming/SIM swapping, cambiazo/PSE, SFC, DataCredito/TransUnion)
+  - Sucesiones: subtitulo + bullets (SAS familiar, testamento vital, Art. 307 E.T.)
+  - Insolvencia: subtitulo (Ley 1564 + persona natural vs empresarial)
+  - Nueva tarjeta "Derecho Civil" en Practica Complementaria
+  - CTA cierre: "Necesita representacion juridica?" + diagnostico/hoja de ruta
+  - TikTok footer -> https://www.tiktok.com/@abogado.cs
+  - Opcional 11: banda de cifras entre hero y "Tres Grandes Areas"
+  - Opcional 12: <title> SEO via useSeoMeta en index
+
+out_of_scope:
+  - Cambios de layout/CSS/funcionalidad
+  - Renombrar/redirigir URL asesoria-legal-gratis
+
+hints:
+  entry: "pages/index.vue (specialties, practiceAreas, hero, CTA); TheHeader/TheFooter CTAs"
+  pattern: "reemplazo de textos + 1 tarjeta y 1 banda siguiendo estructura existente"
+  tests: "no hay suite de tests front; validacion manual"
+
+risk:
+  sensitive: false
+  areas: []
+
+next:
+  after_pr: "review humano y merge"

@@ -126,7 +126,7 @@ const specialties = [
               Instagram
             </NuxtLink>
             <NuxtLink
-              to="https://www.tiktok.com/@carlos_fitlawyer"
+              to="https://www.tiktok.com/@abogado.cs"
               external
               target="_blank"
               class="text-stone-400 hover:text-white transition-colors text-sm"
@@ -138,7 +138,7 @@ const specialties = [
             to="/landing/asesoria-legal-gratis"
             class="inline-block mt-6 px-5 py-2.5 text-sm font-semibold bg-white text-slate-900 rounded-lg hover:bg-stone-100 transition-colors duration-200"
           >
-            Asesoría Gratis
+            Asesoría Inicial
           </NuxtLink>
         </div>
       </div>
