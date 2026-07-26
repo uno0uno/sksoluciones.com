@@ -77,7 +77,10 @@ const specialties = [
 
         <!-- Brand -->
         <div class="sm:col-span-2 lg:col-span-1">
-          <NuxtLink to="/" class="flex items-center gap-3 mb-4">
+          <NuxtLink
+            to="/"
+            class="flex items-center gap-3 mb-4 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-action focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
+          >
             <div class="w-10 h-10 bg-surface-elevated rounded-lg flex items-center justify-center">
               <span class="text-ink font-extrabold text-lg">SK</span>
             </div>
@@ -96,7 +99,10 @@ const specialties = [
           <h3 class="text-sm font-semibold uppercase tracking-wider text-on-ink mb-4">Navegación</h3>
           <ul class="space-y-3">
             <li v-for="link in footerLinks" :key="link.label">
-              <NuxtLink :to="link.to" class="text-on-ink-muted hover:text-on-ink text-sm transition-colors duration-200">
+              <NuxtLink
+                :to="link.to"
+                class="text-on-ink-muted hover:text-on-ink text-sm transition-colors duration-200 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-action focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
+              >
                 {{ link.label }}
               </NuxtLink>
             </li>
@@ -121,7 +127,7 @@ const specialties = [
               to="https://www.instagram.com/abogado.cs"
               external
               target="_blank"
-              class="text-on-ink-muted hover:text-on-ink transition-colors text-sm"
+              class="text-on-ink-muted hover:text-on-ink transition-colors text-sm rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-action focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
             >
               Instagram
             </NuxtLink>
@@ -129,14 +135,14 @@ const specialties = [
               to="https://www.tiktok.com/@abogado.cs"
               external
               target="_blank"
-              class="text-on-ink-muted hover:text-on-ink transition-colors text-sm"
+              class="text-on-ink-muted hover:text-on-ink transition-colors text-sm rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-action focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
             >
               TikTok
             </NuxtLink>
           </div>
           <NuxtLink
             to="/landing/asesoria-legal-gratis"
-            class="inline-block mt-6 px-5 py-2.5 text-sm font-semibold bg-action text-white rounded-lg hover:bg-action-hover transition-colors duration-200"
+            class="inline-block mt-6 px-5 py-2.5 text-sm font-semibold bg-action text-white rounded-lg hover:bg-action-hover transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-action focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
           >
             Asesoría Inicial
           </NuxtLink>

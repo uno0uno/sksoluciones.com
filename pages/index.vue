@@ -10,9 +10,9 @@ useSeoMeta({
 });
 
 const authorityStats = [
-  '+50 casos activos contra la banca colombiana',
-  '10+ años de experiencia como abogado litigante',
-  'Litigio contra las principales entidades del sistema financiero',
+  { value: '+50', label: 'casos activos contra la banca colombiana' },
+  { value: '10+', label: 'años de experiencia como abogado litigante' },
+  { value: 'SFC', label: 'litigio contra las principales entidades del sistema financiero' },
 ];
 
 const specialties = [
@@ -115,7 +115,10 @@ const corporateServices = [
       </div>
       <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 lg:py-36">
         <div class="max-w-3xl">
-          <h1 class="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-extrabold leading-tight tracking-tight">
+          <p class="font-display text-xl sm:text-2xl text-on-ink mb-4">
+            SK Soluciones Legales
+          </p>
+          <h1 class="font-display text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-extrabold leading-tight tracking-tight">
             Protegemos su patrimonio, su legado y su
             <span class="text-action">futuro financiero.</span>
           </h1>
@@ -125,7 +128,7 @@ const corporateServices = [
           <div class="mt-8">
             <NuxtLink
               to="/landing/asesoria-legal-gratis"
-              class="inline-flex items-center justify-center px-8 py-4 bg-action text-white font-semibold rounded-lg hover:bg-action-hover transition-colors duration-200 text-sm sm:text-base"
+              class="inline-flex items-center justify-center px-8 py-4 bg-action text-white font-semibold rounded-lg hover:bg-action-hover transition-colors duration-200 text-sm sm:text-base focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-action focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
             >
               Asesoría Inicial
             </NuxtLink>
@@ -144,10 +147,10 @@ const corporateServices = [
           <div
             v-for="(stat, index) in authorityStats"
             :key="index"
-            class="flex items-start gap-3 text-sm sm:text-base text-on-ink"
+            class="text-center sm:text-left"
           >
-            <span class="w-1.5 h-1.5 bg-action rounded-full mt-2 shrink-0"></span>
-            <span>{{ stat }}</span>
+            <p class="font-display text-3xl sm:text-4xl font-bold text-action leading-none">{{ stat.value }}</p>
+            <p class="mt-2 text-sm text-on-ink-muted leading-relaxed">{{ stat.label }}</p>
           </div>
         </div>
       </div>
@@ -205,7 +208,7 @@ const corporateServices = [
           </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div
             v-for="(area, index) in practiceAreas"
             :key="index"
@@ -275,7 +278,7 @@ const corporateServices = [
           <div class="mt-10">
             <NuxtLink
               to="/landing/asesoria-legal-gratis"
-              class="inline-flex items-center gap-3 px-10 py-4 bg-action text-white font-semibold rounded-lg hover:bg-action-hover transition-colors duration-200 text-base"
+              class="inline-flex items-center gap-3 px-10 py-4 bg-action text-white font-semibold rounded-lg hover:bg-action-hover transition-colors duration-200 text-base focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-action focus-visible:ring-offset-2"
             >
               Solicitar Asesoría Inicial
             </NuxtLink>

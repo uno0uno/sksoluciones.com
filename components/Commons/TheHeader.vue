@@ -24,7 +24,10 @@ const toggleMenu = () => {
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16 sm:h-20">
         <!-- Logo / Brand -->
-        <NuxtLink to="/" class="flex items-center gap-3 shrink-0">
+        <NuxtLink
+          to="/"
+          class="flex items-center gap-3 shrink-0 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-action focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
+        >
           <div class="w-10 h-10 sm:w-12 sm:h-12 bg-surface-elevated rounded-lg flex items-center justify-center">
             <span class="text-ink font-extrabold text-lg sm:text-xl">SK</span>
           </div>
@@ -40,13 +43,13 @@ const toggleMenu = () => {
             v-for="item in menuItems"
             :key="item.label"
             :to="item.to"
-            class="px-4 py-2 text-sm font-medium text-on-ink-muted hover:text-on-ink hover:bg-on-ink/10 rounded-lg transition-all duration-200"
+            class="px-4 py-2 text-sm font-medium text-on-ink-muted hover:text-on-ink hover:bg-on-ink/10 rounded-lg transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-action focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
           >
             {{ item.label }}
           </NuxtLink>
           <NuxtLink
             :to="ctaLink"
-            class="ml-3 px-5 py-2 text-sm font-semibold bg-action text-white rounded-lg hover:bg-action-hover transition-colors duration-200"
+            class="ml-3 px-5 py-2 text-sm font-semibold bg-action text-white rounded-lg hover:bg-action-hover transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-action focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
           >
             Asesoría Inicial
           </NuxtLink>
@@ -55,7 +58,7 @@ const toggleMenu = () => {
         <!-- Mobile Menu Button -->
         <button
           @click="toggleMenu"
-          class="lg:hidden p-2 rounded-lg text-on-ink-muted hover:text-on-ink hover:bg-on-ink/10 transition-colors"
+          class="lg:hidden p-2 rounded-lg text-on-ink-muted hover:text-on-ink hover:bg-on-ink/10 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-action focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
           aria-label="Toggle menu"
         >
           <Bars3Icon v-if="!mobileMenuOpen" class="h-6 w-6" />
@@ -79,14 +82,14 @@ const toggleMenu = () => {
               :key="item.label"
               :to="item.to"
               @click="mobileMenuOpen = false"
-              class="px-4 py-3 text-sm font-medium text-on-ink-muted hover:text-on-ink hover:bg-on-ink/10 rounded-lg transition-all duration-200"
+              class="px-4 py-3 text-sm font-medium text-on-ink-muted hover:text-on-ink hover:bg-on-ink/10 rounded-lg transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-action focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
             >
               {{ item.label }}
             </NuxtLink>
             <NuxtLink
               :to="ctaLink"
               @click="mobileMenuOpen = false"
-              class="mx-4 mt-3 px-5 py-3 text-sm font-semibold bg-action text-white rounded-lg hover:bg-action-hover transition-colors duration-200 text-center"
+              class="mx-4 mt-3 px-5 py-3 text-sm font-semibold bg-action text-white rounded-lg hover:bg-action-hover transition-colors duration-200 text-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-action focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
             >
               Asesoría Inicial
             </NuxtLink>
