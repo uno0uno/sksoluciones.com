@@ -1,0 +1,43 @@
+issue: 6
+title: "Batch 3: UX refine home (brand, grid, cifras, focus)"
+repo: sksoluciones.com
+repo_remote: uno0uno/sksoluciones.com
+cwd: /Users/saifer/Documents/WEBS/sksoluciones.com
+stack: nuxt
+branch: wr-6-ux-refine-home
+
+paths:
+  - pages/index.vue
+  - components/Commons/TheHeader.vue
+  - components/Commons/TheFooter.vue
+
+ac:
+  - "Hero: marca 'SK Soluciones Legales' hero-level con font-display encima del H1; un H1 + subtítulo + un CTA; sin badges/overlays."
+  - "H1 usa font-display (Fraunces); brand test pasa sin mirar el nav."
+  - "authorityStats refactor a {value,label}; render número grande + label corto (sin inventar métricas)."
+  - "practiceAreas grid: md:grid-cols-2 lg:grid-cols-4 (Civil no queda huérfano en md)."
+  - "focus-visible ring-2 ring-action en header nav/CTA, hero CTA, contacto CTA, footer CTA (ring-offset-ink en chrome oscuro)."
+  - "Copy brief #1 y URL /landing/asesoria-legal-gratis intactos; sin dark mode ni foto hero."
+
+out_of_scope:
+  - "Retokenizar colores (#4/#5); landings; Marketing/*; SEO; fotografía stock."
+  - "Nuevas cards decorativas o rediseño de IA/landingv2."
+
+hints:
+  entry: "pages/index.vue:111-154 hero+stats; :208 practice grid; TheHeader nav/CTA; TheFooter CTA"
+  pattern: "Brand line + font-display; stats {value,label}; grid 2/4; focus-visible:ring-action ring-offset-ink"
+  base: "Branch from wr-5-aplicar-tokens-home (PR #8). Stacked OK if #2/#7/#8 still open."
+  stats: "+50 | casos activos contra la banca colombiana; 10+ | años de experiencia como abogado litigante; Banca | litigio contra principales entidades del sistema financiero"
+  tests: "Manual: brand test, md 2x2 / lg 4-col, Tab focus rings. rg asesoria-legal-gratis intact. No build/lint."
+
+risk:
+  sensitive: false
+  areas:
+    - "Stacked on unmerged #5/#4/#2 — merge order #2→#7→#8→#6."
+    - "CSS var + ring-offset may need solid ring-offset-ink (already a token)."
+
+skip:
+  audits: [security, color]
+
+next:
+  after_pr: "/wr-next uno0uno/sksoluciones.com#3"

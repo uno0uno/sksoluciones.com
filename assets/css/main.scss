@@ -1,10 +1,25 @@
 /* ~/assets/css/main.scss */
 
 /* ==================================== */
+/* Design tokens (SK Soluciones #4)     */
+/* ==================================== */
+:root {
+  --color-ink: #0B1F33;
+  --color-ink-muted: #3D4F5F;
+  --color-surface: #F7F5F2;
+  --color-surface-elevated: #FFFFFF;
+  --color-on-ink: #F4F1EC;
+  --color-on-ink-muted: #B8C0C8;
+  --color-action: #9A6B2F;
+  --color-action-hover: #7E5624;
+  --color-line: #D9D3C9;
+}
+
+/* ==================================== */
 /* Custom Fonts - Loaded Locally        */
 /* ==================================== */
 
-/* Inter Fonts */
+/* Inter Fonts (body / UI) */
 @font-face {
   font-family: 'Inter';
   src: url('~/assets/fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
@@ -20,6 +35,10 @@
   font-style: italic;
   font-display: swap;
 }
+
+/* Fraunces Variable (display) — WOFF2 via fontsource */
+@import '@fontsource-variable/fraunces/wght.css';
+
 /* ==================================== */
 /* Tailwind CSS Imports                 */
 /* ==================================== */
@@ -29,10 +48,12 @@
 
 
 /* ==================================== */
-/* Global Font Application (Optional)   */
+/* Global Font Application              */
 /* ==================================== */
 body {
-  font-family: 'Inter', sans-serif; /* Se aplica Inter como fuente principal */
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  color: var(--color-ink);
+  background-color: var(--color-surface-elevated);
 }
 
 html, body {
@@ -45,8 +66,9 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Display applied in #5/#6 via font-display; keep headings Inter in foundation */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter', sans-serif; /* Se aplica Inter para los encabezados */
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
 }
 
 /* ==================================== */
@@ -114,29 +136,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ==================================== */
-/* Backgounds                           */
+/* Backgrounds                          */
 /* ==================================== */
 
 .background-plus {
-  position: absolute; 
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; 
-  background-color: white; 
-  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.12'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  z-index: -1; 
-}
-
-.background-dots-white {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: white; 
-  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.08' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
-  z-index: -1; 
+  background-color: var(--color-surface-elevated);
+  /* ink pattern at 12% opacity */
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%230B1F33' fill-opacity='0.12'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  z-index: -1;
 }
 
 /* ==================================== */
@@ -144,26 +156,26 @@ h1, h2, h3, h4, h5, h6 {
 /* ==================================== */
 
 input:-webkit-autofill,
-input:-webkit-autofill:hover, 
+input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
-    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
-    -webkit-text-fill-color: #333;
+    -webkit-box-shadow: 0 0 0px 1000px var(--color-surface-elevated) inset;
+    -webkit-text-fill-color: var(--color-ink);
 }
 
 input:-moz-autofill,
-input:-moz-autofill:hover, 
+input:-moz-autofill:hover,
 input:-moz-autofill:focus {
-    background-color: #fff;
-    color: #333;
+    background-color: var(--color-surface-elevated);
+    color: var(--color-ink);
 }
 
 input:focus {
-    outline: 2px solid transparent; 
+    outline: 2px solid transparent;
     outline-offset: 2px;
-    box-shadow: 0 0 0 2px #374151;
+    box-shadow: 0 0 0 2px var(--color-ink);
 }
 
 input:-webkit-autofill:focus {
-    box-shadow: 0 0 0 2px #374151, inset 0 0 0px 1000px #fff;
-    -webkit-text-fill-color: #333;
+    box-shadow: 0 0 0 2px var(--color-ink), inset 0 0 0px 1000px var(--color-surface-elevated);
+    -webkit-text-fill-color: var(--color-ink);
 }
