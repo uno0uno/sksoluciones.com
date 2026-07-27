@@ -22,10 +22,7 @@ useHead({
         Le escribiremos por WhatsApp al número que registró en las próximas 24 horas hábiles.
         En esa conversación evaluaremos la viabilidad de su caso y le indicaremos los siguientes pasos.
       </p>
-      <p class="text-base text-ink-muted leading-relaxed">
-        Si su caso es urgente, escríbanos directamente por WhatsApp al mismo número y coordinaremos con prioridad.
-      </p>
-      <!-- WA button wired in #13 with real number (no prefill) -->
+      <!-- Urgent WA CTA + firm number: batch #13 -->
       <NuxtLink
         to="/"
         class="inline-flex items-center justify-center self-center px-8 py-3 bg-ink text-on-ink font-semibold rounded-lg hover:opacity-90 transition-opacity focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-action focus-visible:ring-offset-2"
