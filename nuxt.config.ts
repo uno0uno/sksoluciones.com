@@ -18,6 +18,7 @@ export default defineNuxtConfig({
     privateKeyEncrypter: process.env.NUXT_PRIVATE_PRIVATE_KEY_ENCRYPTER || '',
     tokenBackend: process.env.NUXT_PRIVATE_TOKEN_BACKEND || '',
     backendBaseUrl: process.env.NUXT_PRIVATE_BACKEND_BASE_URL || '',
+    discordSkLeadsWebhookUrl: process.env.NUXT_PRIVATE_DISCORD_SK_LEADS_WEBHOOK_URL || '',
     public: {
       baseUrl: process.env.NUXT_PUBLIC_BASE_URL || '',
       nameSite: process.env.NUXT_PRIVATE_NAME_SITE || '',
@@ -30,6 +31,7 @@ export default defineNuxtConfig({
       organizationLogo: process.env.NUXT_PUBLIC_ORGANIZATION_LOGO || '',
       organizationEmail: process.env.NUXT_PUBLIC_ORGANIZATION_EMAIL || '',
       organizationTelephone: process.env.NUXT_PUBLIC_ORGANIZATION_TELEPHONE || '',
+      skWhatsapp: process.env.NUXT_PUBLIC_SK_WHATSAPP || '',
       organizationSocials: process.env.NUXT_PUBLIC_ORGANIZATION_SOCIALS ? JSON.parse(process.env.NUXT_PUBLIC_ORGANIZATION_SOCIALS) : [],
       organizationAddress: process.env.NUXT_PUBLIC_ORGANIZATION_ADDRESS ? JSON.parse(process.env.NUXT_PUBLIC_ORGANIZATION_ADDRESS) : {},
       organizationSocialLinks: process.env.NUXT_PUBLIC_ORGANIZATION_SOCIAL_LINKS ? JSON.parse(process.env.NUXT_PUBLIC_ORGANIZATION_SOCIAL_LINKS) : [],

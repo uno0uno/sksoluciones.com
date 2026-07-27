@@ -57,16 +57,47 @@ const validateAll = () => {
   return Object.values(errors.value).every((e) => e === null);
 };
 
+const serverError = ref(null);
+const isSubmitting = ref(false);
+
 const submitLead = async () => {
+  serverError.value = null;
   if (!validateAll()) return;
 
-  // Stub until #13 wires Discord / server API
-  await navigateTo('/thankyou/asesoria-inicial', { replace: true });
+  isSubmitting.value = true;
+  try {
+    await $fetch('/api/marketing/asesoria-inicial-lead', {
+      method: 'POST',
+      body: {
+        name: formData.value.name.trim(),
+        email: formData.value.email.trim(),
+        phone: formData.value.phone.replace(/\s+/g, ''),
+        area: formData.value.area,
+        caseDescription: formData.value.caseDescription.trim(),
+      },
+    });
+
+    await navigateTo('/thankyou/asesoria-inicial', { replace: true });
+  } catch (error) {
+    const dataMessage = error?.data?.message || error?.statusMessage;
+    serverError.value =
+      dataMessage || 'Hubo un error al enviar su consulta. Intente de nuevo.';
+  } finally {
+    isSubmitting.value = false;
+  }
 };
 </script>
 
 <template>
   <form class="w-full flex flex-col gap-5" @submit.prevent="submitLead" novalidate>
+    <p
+      v-if="serverError"
+      class="rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800"
+      role="alert"
+    >
+      {{ serverError }}
+    </p>
+
     <div class="flex flex-col gap-1.5">
       <label for="ai-name" class="text-sm font-semibold text-ink">Nombre completo</label>
       <input
@@ -145,9 +176,10 @@ const submitLead = async () => {
 
     <button
       type="submit"
-      class="inline-flex items-center justify-center px-8 py-4 bg-action text-white font-semibold rounded-lg hover:bg-action-hover transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-action focus-visible:ring-offset-2"
+      :disabled="isSubmitting"
+      class="inline-flex items-center justify-center px-8 py-4 bg-action text-white font-semibold rounded-lg hover:bg-action-hover transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-action focus-visible:ring-offset-2 disabled:opacity-60 disabled:cursor-not-allowed"
     >
-      Enviar mi consulta
+      {{ isSubmitting ? 'Enviando…' : 'Enviar mi consulta' }}
     </button>
   </form>
 </template>
