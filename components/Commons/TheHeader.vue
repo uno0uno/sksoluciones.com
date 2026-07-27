@@ -12,7 +12,7 @@ const menuItems = [
   { label: 'Contacto', to: '/#contacto' },
 ];
 
-const ctaLink = '/landing/asesoria-legal-gratis';
+const ctaLink = '/landing/asesoria-inicial';
 
 const toggleMenu = () => {
   mobileMenuOpen.value = !mobileMenuOpen.value;

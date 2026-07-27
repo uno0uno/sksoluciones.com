@@ -127,7 +127,7 @@ const corporateServices = [
           </p>
           <div class="mt-8">
             <NuxtLink
-              to="/landing/asesoria-legal-gratis"
+              to="/landing/asesoria-inicial"
               class="inline-flex items-center justify-center px-8 py-4 bg-action text-white font-semibold rounded-lg hover:bg-action-hover transition-colors duration-200 text-sm sm:text-base focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-action focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
             >
               Asesoría Inicial
@@ -277,7 +277,7 @@ const corporateServices = [
           </p>
           <div class="mt-10">
             <NuxtLink
-              to="/landing/asesoria-legal-gratis"
+              to="/landing/asesoria-inicial"
               class="inline-flex items-center gap-3 px-10 py-4 bg-action text-white font-semibold rounded-lg hover:bg-action-hover transition-colors duration-200 text-base focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-action focus-visible:ring-offset-2"
             >
               Solicitar Asesoría Inicial

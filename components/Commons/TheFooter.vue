@@ -141,7 +141,7 @@ const specialties = [
             </NuxtLink>
           </div>
           <NuxtLink
-            to="/landing/asesoria-legal-gratis"
+            to="/landing/asesoria-inicial"
             class="inline-block mt-6 px-5 py-2.5 text-sm font-semibold bg-action text-white rounded-lg hover:bg-action-hover transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-action focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
           >
             Asesoría Inicial

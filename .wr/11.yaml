@@ -1,0 +1,46 @@
+issue: 11
+title: "Batch 1: Retirar funnel gratis + slug asesoria-inicial"
+repo: sksoluciones.com
+repo_remote: uno0uno/sksoluciones.com
+cwd: /Users/saifer/Documents/WEBS/sksoluciones.com
+stack: nuxt
+branch: wr-11-asesoria-inicial-shell
+parent_epic: uno0uno/sksoluciones.com#10
+
+paths:
+  - components/Commons/TheHeader.vue
+  - components/Commons/TheFooter.vue
+  - pages/index.vue
+  - pages/landing/asesoria-inicial.vue
+  - nuxt.config.ts
+
+ac:
+  - "CTAs header/home/footer apuntan a /landing/asesoria-inicial (cero asesoria-legal-gratis en CTAs)."
+  - "/landing/asesoria-inicial es página estática (layout landingv2); no llama /api/landings ni get-token."
+  - "Hero reusa R2 webp asesoria-legal-gratis.webp; shell mínimo (img + H1/sub placeholder); sin TheHeroSectionLeftRight/TheLeadForm."
+  - "301 /landing/asesoria-legal-gratis → /landing/asesoria-inicial (prefer routeRules en nuxt.config.ts)."
+  - "pages/landing/[slug].vue intacto; PR documenta ops: ctv.is_active=false (no DELETE)."
+
+out_of_scope:
+  - "Secciones pipeline, form área/caso, thank-you (#12)."
+  - "Discord / wa.me / email SES / WaroLabs lead (#13)."
+  - "Desactivar DB desde código; borrar campaña."
+
+hints:
+  entry: "TheHeader.vue:15 ctaLink; index.vue:130,280; TheFooter.vue:144"
+  pattern: "Static page wins over [slug].vue. Prefer nitro routeRules redirect. Shell = img+copy stub for #12."
+  hero: "https://pub-989cb99e332c4f23a93447c9e3727d1d.r2.dev/landing-campaigns/asesoria-legal-gratis.webp"
+  redirect: "routeRules: { '/landing/asesoria-legal-gratis': { redirect: { to: '/landing/asesoria-inicial', statusCode: 301 } } }"
+  tests: "rg 'asesoria-legal-gratis' (solo redirect/config + hero URL si aplica). rg ctaLink/to → asesoria-inicial. No build/lint."
+
+risk:
+  sensitive: false
+  areas:
+    - "routeRules 301 must not break other /landing/* DB campaigns."
+    - "Do not mount WaroLabs form via TheHeroSectionLeftRight."
+
+skip:
+  audits: [security, color, typography, ux]
+
+next:
+  after_pr: "/wr-next uno0uno/sksoluciones.com#10"
