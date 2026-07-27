@@ -3,6 +3,11 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'node-server'
   },
+  routeRules: {
+    '/landing/asesoria-legal-gratis': {
+      redirect: { to: '/landing/asesoria-inicial', statusCode: 301 }
+    }
+  },
   runtimeConfig: {
     apiKey: process.env.NUXT_API_KEY || '',
     awsAccessKeyId: process.env.NUXT_PRIVATE_AWS_ACCES_KEY_ID || '',
