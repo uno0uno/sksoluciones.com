@@ -1,0 +1,48 @@
+issue: 12
+title: "Batch 2: Landing pipeline + form área + thank-you"
+repo: sksoluciones.com
+repo_remote: uno0uno/sksoluciones.com
+cwd: /Users/saifer/Documents/WEBS/sksoluciones.com
+stack: nuxt
+branch: wr-12-pipeline-landing-form
+parent_epic: uno0uno/sksoluciones.com#10
+
+paths:
+  - pages/landing/asesoria-inicial.vue
+  - components/Landings/AsesoriaInicialLeadForm.vue
+  - pages/thankyou/asesoria-inicial.vue
+  - public/images/asesoria-proceso.svg
+
+ac:
+  - "Landing copy pegar-tal-cual brief §§1.4–1.8 + form §2; cero 'gratis' y cero precios."
+  - "Hero completo: bullets credibilidad, CTA 'Contarle mi caso a Carlos', microcopy WhatsApp 24h."
+  - "Secciones: proceso 4 pasos + áreas (4); tokens ink/action/surface/font-display; sin TheLeadForm."
+  - "Form: nombre, email, WhatsApp (+57 fijo), área required (5 opciones brief), caso opcional; stub → /thankyou/asesoria-inicial."
+  - "Thank-you dedicado §3: sin promesa de email; WA opcional sin prefill; noindex."
+  - "2ª imagen proceso en §1.7 (public/ o reuso controlado); mobile+desktop legible."
+
+out_of_scope:
+  - "Discord / server lead API / wa.me número real (#13)."
+  - "Email SES / WaroLabs createLeadCampain."
+  - "Header/nav changes; generic thankyou/[slug].vue rewrite."
+
+hints:
+  entry: "pages/landing/asesoria-inicial.vue (shell #11); expand in-page sections + form mount"
+  pattern: "New AsesoriaInicialLeadForm; form-local validation; navigateTo stub. Static thankyou/asesoria-inicial.vue wins over [slug]."
+  area_options: "Fraude Bancario | Sucesiones | Planificación Patrimonial | Civil | Otro tema legal"
+  copy_source: "~/Downloads/Pipeline_SK_Landing_para_Anderson.docx"
+  hero: "https://pub-989cb99e332c4f23a93447c9e3727d1d.r2.dev/landing-campaigns/asesoria-legal-gratis.webp"
+  tests: "rg -i 'gratis|100.?000|150.?000' landing+thankyou → empty. Area empty blocks submit. Stub lands thank-you. No build/lint."
+
+risk:
+  sensitive: false
+  areas:
+    - "Do not promise email on thank-you."
+    - "Do not mount WaroLabs TheLeadForm."
+    - "2nd image: if no asset ready, reuse hero with distinct alt/crop OR placeholder in public/ — no stock AI clutter."
+
+skip:
+  audits: [security, color, typography]
+
+next:
+  after_pr: "/wr-next uno0uno/sksoluciones.com#10"

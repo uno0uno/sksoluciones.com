@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Proceso SK">
+  <rect width="1200" height="800" fill="#0B1F33"/>
+  <rect x="80" y="100" width="1040" height="120" rx="8" fill="#9A6B2F"/>
+  <rect x="80" y="260" width="1040" height="120" rx="8" fill="#3D4F5F"/>
+  <rect x="80" y="420" width="1040" height="120" rx="8" fill="#9A6B2F"/>
+  <rect x="80" y="580" width="1040" height="120" rx="8" fill="#3D4F5F"/>
+  <text x="120" y="175" fill="#F4F1EC" font-family="Georgia, serif" font-size="36">1 · Cuéntenos su caso</text>
+  <text x="120" y="335" fill="#F4F1EC" font-family="Georgia, serif" font-size="36">2 · Contacto WhatsApp</text>
+  <text x="120" y="495" fill="#F4F1EC" font-family="Georgia, serif" font-size="36">3 · Viabilidad del caso</text>
+  <text x="120" y="655" fill="#F4F1EC" font-family="Georgia, serif" font-size="36">4 · Asesoría de Oro</text>
+</svg>
