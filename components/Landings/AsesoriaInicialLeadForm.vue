@@ -79,9 +79,9 @@ const submitLead = async () => {
 
     await navigateTo('/thankyou/asesoria-inicial', { replace: true });
   } catch (error) {
-    const dataMessage = error?.data?.message || error?.statusMessage;
     serverError.value =
-      dataMessage || 'Hubo un error al enviar su consulta. Intente de nuevo.';
+      error?.data?.message ||
+      'Hubo un error al enviar su consulta. Intente de nuevo.';
   } finally {
     isSubmitting.value = false;
   }

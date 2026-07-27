@@ -6,7 +6,36 @@ const AREA_OPTIONS = [
   'Otro tema legal',
 ];
 
+const MAX_NAME = 200;
+const MAX_EMAIL = 254;
+const MAX_CASE = 1000;
+const RATE_WINDOW_MS = 60_000;
+const RATE_MAX = 5;
+
+/** @type {Map<string, number[]>} */
+const recentByIp = new Map();
+
 const emailOk = (value) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+
+const clientIp = (event) => {
+  const forwarded = getHeader(event, 'x-forwarded-for');
+  if (forwarded) return forwarded.split(',')[0].trim();
+  return getRequestIP(event, { xForwardedFor: true }) || 'unknown';
+};
+
+const assertRateLimit = (ip) => {
+  const now = Date.now();
+  const prior = (recentByIp.get(ip) || []).filter((t) => now - t < RATE_WINDOW_MS);
+  if (prior.length >= RATE_MAX) {
+    throw createError({
+      statusCode: 429,
+      statusMessage: 'Too Many Requests',
+      message: 'Demasiados intentos. Espere un momento e intente de nuevo.',
+    });
+  }
+  prior.push(now);
+  recentByIp.set(ip, prior);
+};
 
 export default defineEventHandler(async (event) => {
   const { discordSkLeadsWebhookUrl } = useRuntimeConfig();
@@ -19,6 +48,8 @@ export default defineEventHandler(async (event) => {
     });
   }
 
+  assertRateLimit(clientIp(event));
+
   const body = await readBody(event);
   const name = typeof body?.name === 'string' ? body.name.trim() : '';
   const email = typeof body?.email === 'string' ? body.email.trim() : '';
@@ -28,15 +59,15 @@ export default defineEventHandler(async (event) => {
   const caseDescription =
     typeof body?.caseDescription === 'string' ? body.caseDescription.trim() : '';
 
-  if (!name || name.length < 2) {
+  if (!name || name.length < 2 || name.length > MAX_NAME) {
     throw createError({
       statusCode: 400,
       statusMessage: 'Bad Request',
-      message: 'Nombre incompleto.',
+      message: 'Nombre incompleto o demasiado largo.',
     });
   }
 
-  if (!email || !emailOk(email)) {
+  if (!email || email.length > MAX_EMAIL || !emailOk(email)) {
     throw createError({
       statusCode: 400,
       statusMessage: 'Bad Request',
@@ -60,6 +91,14 @@ export default defineEventHandler(async (event) => {
     });
   }
 
+  if (caseDescription.length > MAX_CASE) {
+    throw createError({
+      statusCode: 400,
+      statusMessage: 'Bad Request',
+      message: 'La descripción del caso es demasiado larga.',
+    });
+  }
+
   const waMeLead = `https://wa.me/57${phoneDigits}`;
   const caseText = caseDescription || '—';
 
@@ -75,7 +114,7 @@ export default defineEventHandler(async (event) => {
           { name: 'Email', value: email, inline: false },
           { name: 'WhatsApp', value: `+57 ${phoneDigits}`, inline: true },
           { name: 'Contactar', value: waMeLead, inline: true },
-          { name: 'Caso', value: caseText.slice(0, 1000), inline: false },
+          { name: 'Caso', value: caseText, inline: false },
         ],
         timestamp: new Date().toISOString(),
       },
