@@ -1,0 +1,46 @@
+issue: 13
+title: "Batch 3: Lead API Discord + wa.me sin mensaje"
+repo: sksoluciones.com
+repo_remote: uno0uno/sksoluciones.com
+cwd: /Users/saifer/Documents/WEBS/sksoluciones.com
+stack: nuxt
+branch: wr-13-discord-lead-api
+parent_epic: uno0uno/sksoluciones.com#10
+
+paths:
+  - nuxt.config.ts
+  - server/api/marketing/asesoria-inicial-lead.post.js
+  - components/Landings/AsesoriaInicialLeadForm.vue
+  - pages/thankyou/asesoria-inicial.vue
+
+ac:
+  - "POST /api/marketing/asesoria-inicial-lead valida body (name, email, phone 10d, area allowlist, case optional)."
+  - "Discord webhook via NUXT_PRIVATE_DISCORD_SK_LEADS_WEBHOOK_URL only (runtimeConfig private); never NUXT_PUBLIC / client bundle."
+  - "Discord payload: nombre, email, +57 teléfono, área, caso, https://wa.me/57{leadDigits} sin ?text=."
+  - "Form wire: success → /thankyou/asesoria-inicial; Discord fail → generic serverError, no secret leak."
+  - "Thank-you optional firm WA CTA (NUXT_PUBLIC_SK_WHATSAPP digits) sin prefill; omit if unset."
+  - "PR documents Amplify/Docker env keys; ops: rotate webhook if leaked."
+
+out_of_scope:
+  - "WaroLabs createLeadCampain / SES email."
+  - "Landing copy/sections (#12)."
+  - "Discord UI webhook regeneration (ops only)."
+
+hints:
+  entry: "AsesoriaInicialLeadForm.vue:60-64 stub; nuxt.config.ts runtimeConfig private block"
+  pattern: "createError generic; $fetch Discord from server only; area allowlist match form options"
+  env_private: "NUXT_PRIVATE_DISCORD_SK_LEADS_WEBHOOK_URL"
+  env_public: "NUXT_PUBLIC_SK_WHATSAPP (10 digits, no 3001234567 placeholder)"
+  tests: "rg webhook URL only nuxt.config+server. Unset webhook → 503. Form error stays on page. No build/lint."
+
+risk:
+  sensitive: true
+  areas:
+    - "Discord webhook secret must not log or return to client."
+    - "Public lead POST — strict validation / no open proxy."
+
+skip:
+  audits: [color, typography, ux]
+
+next:
+  after_pr: "/wr-next uno0uno/sksoluciones.com#10"
