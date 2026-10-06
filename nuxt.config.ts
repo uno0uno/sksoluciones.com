@@ -1,9 +1,16 @@
 export default defineNuxtConfig({
   ssr: true,
   nitro: {
-    preset: 'node-server'
+    preset: 'node-server',
+    prerender: {
+      crawlLinks: true,
+      routes: ['/blog'],
+    },
   },
   routeRules: {
+    '/': { prerender: true },
+    '/blog': { prerender: true },
+    '/blog/**': { prerender: true },
     '/landing/asesoria-legal-gratis': {
       redirect: { to: '/landing/asesoria-inicial', statusCode: 301 }
     }

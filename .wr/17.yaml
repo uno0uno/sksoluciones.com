@@ -1,0 +1,51 @@
+issue: 17
+title: "[SK] Blog local markdown - replicar el-diferencial (sin DB)"
+repo: sksoluciones.com
+repo_remote: uno0uno/sksoluciones.com
+cwd: /Users/saifer/Documents/WEBS/sksoluciones.com
+stack: nuxt
+branch: wr-17-blog-local
+paths:
+  - utils/blog.ts
+  - composables/useBlogPosts.ts
+  - content/blog/fraude-bancario-que-hacer.md
+  - content/blog/sucesion-bienes-bogota.md
+  - pages/blog/index.vue
+  - pages/blog/[slug].vue
+  - server/routes/sitemap.xml.ts
+  - components/blog/BlogArticleCTA.vue
+  - components/blog/BlogArticleContent.vue
+  - components/blog/BlogArticleGrid.vue
+  - components/blog/BlogArticleHero.vue
+  - components/blog/BlogArticleImage.vue
+  - components/blog/BlogBreadcrumb.vue
+  - components/blog/BlogCard.vue
+  - components/blog/BlogFeaturedCard.vue
+  - nuxt.config.ts
+  - Dockerfile
+ac:
+  - GET /blog lista 2 posts ejemplo ordenados date DESC (utils/blog.ts import.meta.glob)
+  - GET /blog/:slug renderiza bodyHtml (MarkdownIt html:false) y 404 si slug inexistente
+  - GET /sitemap.xml incluye /blog y cada /blog/${slug} (lastmod = frontmatter date)
+  - pnpm build prerender genera .output/public/blog/** sin fetch a /api/blog
+  - CTA banner contextual por slug hacia /landing/asesoria-inicial#consulta
+out_of_scope:
+  - pilares pillar--* (definir luego)
+  - crear tenant en postresWaroLabs
+  - R2 / multi-tenant
+hints:
+  entry: "pages/blog/index.vue, pages/blog/[slug].vue"
+  pattern: "el-diferencial/utils/blog.ts:23 import.meta.glob eager ?raw, el-diferencial/pages/blog/*.vue:1, el-diferencial/server/routes/sitemap.xml.ts:1 disk read"
+  tests: "npm test 2>&1 | head -n 50 (jest); pnpm build dry-run check prerender"
+  lessons: "No AGENTS.md lessons for blog; ED pattern uses prerender:true + nitro.prerender.crawlLinks"
+lessons_checked:
+  - query: "blog tenant prerender"
+    hit: false
+    reused: ""
+risk:
+  sensitive: false
+  areas: []
+skip:
+  audits: []
+next:
+  after_pr: "Manual verify pnpm dev /blog y sitemap.xml, then pnpm build check .output/public/blog"
