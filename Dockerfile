@@ -13,6 +13,7 @@ RUN npm run build
 FROM node:20-alpine
 WORKDIR /app
 COPY --from=build /app/.output/ ./.output/
+COPY --from=build /app/content ./content
 ENV PORT=3002
 ENV HOST=0.0.0.0
 EXPOSE 3002
