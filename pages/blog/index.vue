@@ -14,7 +14,7 @@ const canonicalUrl = computed(() => {
   return `${baseUrl}/blog`
 })
 
-useHead({
+useHead(() => ({
   title: `Blog | ${config.nameSite || 'SK Soluciones'}`,
   meta: [
     {
@@ -26,10 +26,10 @@ useHead({
       property: 'og:description',
       content: 'Guías legales claras para proteger tu patrimonio y tus derechos.',
     },
-    { property: 'og:url', content: canonicalUrl },
+    { property: 'og:url', content: canonicalUrl.value },
   ],
-  link: [{ rel: 'canonical', href: canonicalUrl }],
-})
+  link: [{ rel: 'canonical', href: canonicalUrl.value }],
+}))
 </script>
 
 <template>
@@ -51,7 +51,6 @@ useHead({
     <section class="page-container py-12 sm:py-16">
       <BlogFeaturedCard
         v-if="featured"
-        v-reveal
         :post="featured"
       />
       <BlogArticleGrid

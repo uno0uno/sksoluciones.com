@@ -1,17 +1,36 @@
 <script setup lang="ts">
-defineProps<{
+const props = defineProps<{
   slug: string
   title: string
 }>()
+
+const ctaCopy = computed(() => {
+  if (props.slug.includes('fraude')) {
+    return {
+      headline: '¿Te vaciaron la cuenta?',
+      body: 'Revisamos tu caso de fraude bancario en 24h. Si no es viable, te lo decimos.',
+    }
+  }
+  if (props.slug.includes('sucesion')) {
+    return {
+      headline: '¿Sucesión sin líos?',
+      body: 'Te damos hoja de ruta y costo cerrado antes de radicar.',
+    }
+  }
+  return {
+    headline: '¿Necesitas asesoría legal? Cuéntanos tu caso',
+    body: 'Carlos Salamanca revisa personalmente cada consulta en menos de 24 horas hábiles.',
+  }
+})
 </script>
 
 <template>
   <aside class="rounded-xl border border-line bg-brand p-6 text-on-brand sm:p-8">
     <p class="text-lead text-on-brand">
-      ¿Necesitas asesoría legal? Cuéntanos tu caso
+      {{ ctaCopy.headline }}
     </p>
     <p class="mt-2 text-body text-on-brand">
-      Carlos Salamanca revisa personalmente cada consulta en menos de 24 horas hábiles. Confidencial y sin compromiso inicial.
+      {{ ctaCopy.body }} Confidencial y sin compromiso inicial.
     </p>
     <NuxtLink
       to="/landing/asesoria-inicial#consulta"

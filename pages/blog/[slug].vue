@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { blogPostImage } from '~/utils/blog'
+import { blogPostImage, getBlogPostBySlug } from '~/utils/blog'
 
 definePageMeta({
   layout: 'default',
@@ -22,15 +22,6 @@ if (!post.value) {
     statusMessage: 'Artículo no encontrado',
   })
 }
-
-watch(post, (value) => {
-  if (!value) {
-    showError(createError({
-      statusCode: 404,
-      statusMessage: 'Artículo no encontrado',
-    }))
-  }
-})
 
 const coverSrc = computed(() => (post.value ? blogPostImage(post.value) : undefined))
 
