@@ -35,7 +35,7 @@ function blogEntriesFromDisk() {
 
 export default defineEventHandler((event) => {
   const config = useRuntimeConfig()
-  const siteUrl = config.public.baseUrl || 'http://localhost:3000'
+  const siteUrl = (config.public.baseUrl || 'http://localhost:3000').replace(/\/$/, '')
   const today = new Date().toISOString().split('T')[0]
 
   const staticUrls = [

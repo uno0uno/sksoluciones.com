@@ -1,0 +1,46 @@
+issue: 18
+title: "[SK] Blog SEO hardening - estándar técnico para waro-seo draft"
+repo: sksoluciones.com
+repo_remote: uno0uno/sksoluciones.com
+cwd: /Users/saifer/Documents/WEBS/sksoluciones.com
+stack: nuxt
+branch: wr-18-blog-seo-hardening
+paths:
+  - nuxt.config.ts
+  - pages/blog/index.vue
+  - pages/blog/[slug].vue
+  - server/routes/sitemap.xml.ts
+  - utils/blog.ts
+  - components/blog/BlogArticleImage.vue
+  - components/blog/BlogArticleHero.vue
+  - CLAUDE.md
+  - .env.example
+ac:
+  - Canonical/sitemap sin // : baseUrl trailing slash normalizado (trimEnd "/") en pages/blog/* y sitemap.xml.ts
+  - robots.txt expone sitemap: nuxt.config robots.sitemap = ${siteUrl}/sitemap.xml + groups * allow / disallow /api/*
+  - Head global con robots index,follow y google-site-verification (placeholder env)
+  - pages/blog/[slug].vue inyecta JSON-LD BlogPosting + BreadcrumbList + meta article:published_time, og:locale es_CO, og:site_name, twitter:card summary_large_image
+  - pages/blog/index.vue añade og:site_name, og:locale, twitter:card
+  - utils/blog.ts soporta frontmatter coverAlt/author opcionales y tags parseado; blogPostImage fallback intacto
+  - BlogArticleImage.vue usa coverAlt si existe, no duplica title
+  - CLAUDE.md documenta frontmatter estándar para waro-seo draft (tabla campos + límites 60/160ch)
+out_of_scope:
+  - Crear nuevos artículos de contenido (siguiente issue waro-seo-draft)
+  - R2 / tenant / pillar pages
+  - Rediseño visual blog
+hints:
+  entry: "pages/blog/[slug].vue:40 useHead, nuxt.config.ts:65 robots/site, server/routes/sitemap.xml.ts:8"
+  pattern: "el-diferencial/nuxt.config.ts:73 robots+sitemap, TheFooter.vue:21 JSON-LD @graph, utils/blog.ts:23 import.meta.glob"
+  tests: "pnpm build && ls .output/public/blog && curl -s http://localhost:3000/sitemap.xml | head -n 20; pnpm dev check /blog y /blog/fraude-bancario-que-hacer view-source JSON-LD"
+  lessons: "ED ya tiene sitemap disk-read; SK Dockerfile ya COPY content - no romper"
+lessons_checked:
+  - query: "blog seo jsonld sitemap robots"
+    hit: false
+    reused: ""
+risk:
+  sensitive: false
+  areas: []
+skip:
+  audits: []
+next:
+  after_pr: "Verificar pnpm dev: /blog canonical ok, /blog/:slug JSON-LD válido en validator.schema.org, /sitemap.xml sin //, /robots.txt contiene Sitemap:"

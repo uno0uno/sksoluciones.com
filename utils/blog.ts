@@ -7,7 +7,9 @@ export type BlogPostMeta = {
   slug: string
   cover?: string
   thumbnail?: string
+  coverAlt?: string
   tags?: string
+  author?: string
 }
 
 export type BlogPost = BlogPostMeta & {
@@ -15,7 +17,7 @@ export type BlogPost = BlogPostMeta & {
 }
 
 const md = new MarkdownIt({
-  html: false,
+  html: true,
   linkify: true,
   typographer: true,
 })
@@ -58,7 +60,9 @@ function parseFrontmatter(raw: string): { meta: BlogPostMeta; body: string } {
       slug,
       ...(meta.cover ? { cover: meta.cover } : {}),
       ...(meta.thumbnail ? { thumbnail: meta.thumbnail } : {}),
+      ...(meta.coverAlt ? { coverAlt: meta.coverAlt } : {}),
       ...(meta.tags ? { tags: meta.tags } : {}),
+      ...(meta.author ? { author: meta.author } : {}),
     },
     body: match[2].trim(),
   }
@@ -68,9 +72,13 @@ function loadPosts(): BlogPost[] {
   return Object.values(rawModules)
     .map((raw) => {
       const { meta, body } = parseFrontmatter(raw)
+      const cleanBody = body
+        .replace(/<!--\s*type:\s*[^>]+-->/g, '')
+        .replace(/<!--\s*END ARTICLE[\s\S]*$/g, '')
+        .trim()
       return {
         ...meta,
-        bodyHtml: md.render(body),
+        bodyHtml: md.render(cleanBody),
       }
     })
     .sort((a, b) => b.date.localeCompare(a.date))

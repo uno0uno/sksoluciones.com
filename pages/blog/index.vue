@@ -10,7 +10,7 @@ const featured = computed(() => posts.value[0] ?? null)
 const rest = computed(() => posts.value.slice(1))
 
 const canonicalUrl = computed(() => {
-  const baseUrl = config.baseUrl || 'http://localhost:3000'
+  const baseUrl = (config.baseUrl || 'http://localhost:3000').replace(/\/$/, '')
   return `${baseUrl}/blog`
 })
 
@@ -27,6 +27,12 @@ useHead(() => ({
       content: 'Guías legales claras para proteger tu patrimonio y tus derechos.',
     },
     { property: 'og:url', content: canonicalUrl.value },
+    { property: 'og:site_name', content: config.nameSite || 'SK Soluciones' },
+    { property: 'og:locale', content: 'es_CO' },
+    { property: 'og:type', content: 'website' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: `Blog | ${config.nameSite || 'SK Soluciones'}` },
+    { name: 'twitter:description', content: 'Guías legales claras para proteger tu patrimonio y tus derechos.' },
   ],
   link: [{ rel: 'canonical', href: canonicalUrl.value }],
 }))

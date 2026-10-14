@@ -1,42 +1,47 @@
 <script setup lang="ts">
+import { getSkCta } from '~/utils/skBlogCta'
+
 const props = defineProps<{
   slug: string
   title: string
 }>()
 
-const ctaCopy = computed(() => {
-  if (props.slug.includes('fraude')) {
-    return {
-      headline: '¿Te vaciaron la cuenta?',
-      body: 'Revisamos tu caso de fraude bancario en 24h. Si no es viable, te lo decimos.',
-    }
-  }
-  if (props.slug.includes('sucesion')) {
-    return {
-      headline: '¿Sucesión sin líos?',
-      body: 'Te damos hoja de ruta y costo cerrado antes de radicar.',
-    }
-  }
-  return {
-    headline: '¿Necesitas asesoría legal? Cuéntanos tu caso',
-    body: 'Carlos Salamanca revisa personalmente cada consulta en menos de 24 horas hábiles.',
-  }
-})
+const ctaCopy = computed(() => getSkCta(props.slug, 'final'))
+
+function goToAsesoria() {
+  const slug = props.slug?.trim()
+  return navigateTo({
+    path: '/landing/asesoria-inicial',
+    query: slug ? { campaignSlug: slug } : {},
+    hash: '#consulta',
+  })
+}
 </script>
 
 <template>
-  <aside class="rounded-xl border border-line bg-brand p-6 text-on-brand sm:p-8">
-    <p class="text-lead text-on-brand">
-      {{ ctaCopy.headline }}
-    </p>
-    <p class="mt-2 text-body text-on-brand">
-      {{ ctaCopy.body }} Confidencial y sin compromiso inicial.
-    </p>
-    <NuxtLink
-      to="/landing/asesoria-inicial#consulta"
-      class="mt-5 inline-flex rounded-xl bg-surface-elevated px-5 py-2.5 text-caption font-semibold text-brand transition hover:bg-brand-muted"
-    >
-      Solicitar asesoría
-    </NuxtLink>
+  <aside class="rounded-xl bg-[#1A6A9A] p-5 sm:p-6 text-white shadow-lg border border-[#0F4C75]/20">
+    <div class="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
+      <div class="flex-1">
+        <div class="inline-flex items-center gap-2 rounded-full bg-white/15 px-3 py-1 text-[11px] font-bold uppercase tracking-widest text-white/90">
+          <span class="h-2 w-2 rounded-full bg-white animate-pulse" /> SK Soluciones
+        </div>
+        <p class="mt-3 text-[1.0625rem] font-extrabold leading-tight text-white">
+          {{ ctaCopy.headline }}
+        </p>
+        <p class="mt-2 text-[0.9375rem] leading-relaxed text-white/90">
+          {{ ctaCopy.body }}
+        </p>
+        <p class="mt-2 text-xs leading-relaxed text-white/70">
+          {{ ctaCopy.microcopy }}
+        </p>
+      </div>
+      <button
+        class="inline-flex shrink-0 items-center justify-center rounded-xl bg-white px-6 py-3.5 text-sm font-extrabold text-[#1A6A9A] shadow-md transition hover:bg-surface active:scale-[0.98]"
+        type="button"
+        @click="goToAsesoria"
+      >
+        {{ ctaCopy.button }} →
+      </button>
+    </div>
   </aside>
 </template>

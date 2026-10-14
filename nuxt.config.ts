@@ -52,7 +52,12 @@ export default defineNuxtConfig({
     head: {
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'charset', content: 'utf-8' }
+        { charset: 'utf-8' },
+        { name: 'robots', content: 'index, follow' },
+        {
+          name: 'google-site-verification',
+          content: process.env.NUXT_PUBLIC_GOOGLE_SITE_VERIFICATION || ''
+        }
       ],
       htmlAttrs: {
         lang: 'es'
@@ -63,11 +68,17 @@ export default defineNuxtConfig({
     '@nuxtjs/robots'
   ],
   site: {
-    url: process.env.NUXT_PUBLIC_BASE_URL || ''
+    url: (process.env.NUXT_PUBLIC_BASE_URL || '').replace(/\/$/, '') || 'http://localhost:3000'
   },
   robots: {
     credits: false,
+    sitemap: `${(process.env.NUXT_PUBLIC_BASE_URL || 'http://localhost:3000').replace(/\/$/, '')}/sitemap.xml`,
     groups: [
+      {
+        userAgents: ['*'],
+        allow: ['/'],
+        disallow: ['/api/*']
+      },
       {
         userAgents: ['GPTBot'],
         disallow: ['/api/*'],

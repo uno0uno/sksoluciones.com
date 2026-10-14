@@ -72,11 +72,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ==================================== */
+/* Page container — igual que front_nuxt article-container */
+/* ==================================== */
+.page-container {
+  width: 100%;
+  max-width: 87.5rem;
+  margin-inline: auto;
+  padding-inline: 0.75rem;
+}
+@media (min-width: 640px) { .page-container { padding-inline: 1rem; } }
+@media (min-width: 768px) { .page-container { padding-inline: 1.5rem; } }
+
+/* ==================================== */
 /* Your Custom Styles                   */
 /* ==================================== */
 .article-style {
-  @apply prose sm:prose-2xl prose-img:rounded-lg text-left leading-normal prose-h2:mt-6 sm:prose-h2:mt-16 prose-headings:text-slate-900 prose-p:text-slate-600 prose-p:text-lg sm:prose-p:text-2xl;
+  @apply text-left leading-normal;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--color-ink);
 }
+@media (min-width: 640px) {
+  .article-style { font-size: 1.125rem; line-height: 1.85; }
+}
+.article-style img { border-radius: 0.5rem; }
 
 .p-cards{
   @apply
