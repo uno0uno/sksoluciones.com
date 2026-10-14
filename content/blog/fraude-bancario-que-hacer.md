@@ -21,15 +21,13 @@ author: Carlos Salamanca
 
 <!-- type: intro -->
 
-Sandra Ríos, 36 años, vende desayunos en el barrio Chapinero de Bogotá. Un martes a las 9:47 a.m. le entró un SMS que decía "Bancolombia: transferencia pendiente por $1.200.000, acepta aquí". El link se veía idéntico a la Sucursal Virtual, puso usuario y clave, y 14 minutos después le debitaron $2.800.000 por PSE. Cuando llamó al número del mensaje, le pidieron el código que le acababa de llegar.
-
-Historias como la de Sandra se repiten con el mismo libreto: el mensaje o la llamada que parece del banco, el link que pide datos y el débito que no reconoces. No es un problema de una sola entidad y no es solo Bancolombia.
+Caso ilustrativo: los datos son ficticios. Usted recibe un SMS que simula ser de su banco con una transferencia pendiente y un enlace. Al ingresar, ve un débito por PSE que no autorizó. Casos como este se repiten con el mismo libreto: el mensaje o la llamada que parece del banco, el link que pide datos y el débito que no reconoces. No es un problema de una sola entidad y no es solo Bancolombia.
 
 En este artículo encontrarás:
 - Qué modalidad te pasó (vishing, smishing, phishing) y por qué importa para el reclamo
 - Qué hacer en las primeras 2 horas sin regalar el caso
 - Cómo reclamar por escrito y qué pedir al banco por Ley 1328
-- Los 3 caminos ante la SFC: queja, conciliación y demanda sin abogado si es <40 SMLMV
+- Ruta SK: reclamación escrita y demanda ante la SFC (la queja no obliga) sin abogado si es <40 SMLMV
 - Qué pruebas guardar y qué no afirmar de entrada
 
 ---
@@ -74,15 +72,15 @@ Llama al banco para bloquear, pero reclama por escrito para dejar rastro. La SFC
 * Constancia del estado de tu producto a esa fecha (art. 7 letra j).
 * Logs de autenticación y trazabilidad de la operación (IP, dispositivo, canal).
 
-No firmes paz y salvo ni aceptes "devolución parcial" sin saber si cierras el caso.
+No firmes paz y salvo ni aceptes "devolución parcial"sin saber si cierras el caso.
 
-**Frases que te cierran la puerta vs relato fiel:**
+**Hechos bien contados vs calificaciones a evitar (Regla 6) vs relato fiel:**
 
 | Hecho | Qué decir | Qué no afirmar de entrada |
 |---|---|---|
-| SMS que pide código | "Recibí SMS del 310... a las 9:47 que pedía código y a las 9:51 dicté el que llegó" | "El banco ya reversó porque avisé" |
-| Link | "Ingresé a `bancol-seguro.com` y puse usuario/clave" | "Todo link es delito sin ver qué cargo salió" |
-| Cargo no reconocido | "Débito PSE $2.800.000 a las 10:02 no reconocido, pido soportes" | "Es reversión art. 51 si no fue comercio electrónico" |
+| SMS que pide código | "Recibí SMS del 310... a las 9:47 que pedía código y a las 9:51 dicté el que llegó"| "El banco ya reversó porque avisé"|
+| Link | "Ingresé a `bancol-seguro.com` y puse usuario/clave"| "Todo link es delito sin ver qué cargo salió"|
+| Cargo no reconocido | "Débito PSE $2.800.000 a las 10:02 no reconocido, pido soportes"| "Es reversión art. 51 si no fue comercio electrónico"|
 
 La reversión del art. 51 Ley 1480 es solo para compras por comercio electrónico con tarjeta, no para transferencias inducidas por código telefónico.
 
@@ -95,7 +93,7 @@ La SFC lo publica en ese orden [Superfinanciera](https://www.superfinanciera.gov
 
 **1. Queja.** Ante la SFC, tu banco o su Defensor del Consumidor Financiero. Si la pones en la SFC, va al formulario de Solicitudes/PQRSD y la SFC se la traslada al banco.
 
-**2. Conciliación.** Si no hay respuesta o no estás de acuerdo, pides conciliación con tercero neutral. Dura 3 meses prorrogables 3 más. Si hay acuerdo, el acta presta mérito ejecutivo y hace cosa juzgada.
+**2. Conciliación.** Si no hay respuesta o no estás de acuerdo, pides conciliación con tercero neutral.  Si hay acuerdo, el acta presta mérito ejecutivo y hace cosa juzgada.
 
 **3. Demanda (acción de protección al consumidor financiero).** La decide un juez de la SFC. Requisitos: haber puesto queja al banco primero; si es <40 SMLMV no necesitas abogado (40-150 y >150 sí); el formato está en Servicios de justicia SFC. La radicas en `smart.superfinanciera.gov.co`, por `jurisdiccionales@superfinanciera.gov.co` o en Calle 7 #4-49 Bogotá. Te llega SMS con radicado de 10 dígitos y puedes verla en "Consulta tu proceso". Si te inadmiten, tienes 5 días hábiles para corregir.
 
@@ -138,4 +136,4 @@ Pide también al banco que colabore con las pruebas cuando pueda ser delito, inc
 
 No devuelvas la llamada al número del SMS. Marca tú la línea del reverso de tu tarjeta, bloquea, guarda todo y denuncia. En tu reclamo cuenta si dictaste o no, a qué hora y qué cargo salió después. Con eso el banco debe mostrar sus controles y tú no empiezas con un relato que te cierra la puerta.
 
-¿Te pasó por vishing, smishing o phishing y el banco no te responde? Cuéntanos por [asesoría inicial](/landing/asesoria-inicial#consulta) qué canal usaron, a qué hora, cuánto te sacaron y qué te respondió el banco. Con el denuncio y el radicado armamos la hoja de ruta. Si tu caso es un débito PSE a Nequi o un crédito suplantado, ve también a [cómo reclamar fraude bancario](/blog/como-reclamar-fraude-bancario) y [Ley 2573](/blog/ley-2573-si-es-fraude-no-se-paga).
+¿Le pasó por vishing, smishing o phishing y el banco no te responde? Cuéntenos por [asesoría inicial](/landing/asesoria-inicial#consulta) qué canal usaron, a qué hora, cuánto le debitaron y qué te respondió el banco. Con el denuncio y el radicado armamos la hoja de ruta. Si tu caso es un débito PSE a Nequi o un crédito suplantado, ve también a [cómo reclamar fraude bancario](/blog/como-reclamar-fraude-bancario) y [Ley 2573](/blog/ley-2573-si-es-fraude-no-se-paga).

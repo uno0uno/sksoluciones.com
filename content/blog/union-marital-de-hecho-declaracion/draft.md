@@ -1,7 +1,5 @@
 ---
-title: "Unión marital de hecho en Colombia: cómo declararla y cuándo nace la sociedad patrimonial"
-keyword: "union marital de hecho declaracion"
-intent: informational-transactional
+title: "Unión marital de hecho en Colombia: cómo declararla y cuándo nace la sociedad patrimonial"keyword: "union marital de hecho declaracion"intent: informational-transactional
 status: draft
 date_drafted: 2026-10-14
 content_type: guide
@@ -9,15 +7,10 @@ people_first_score: 8.5
 slug: union-marital-de-hecho-declaracion
 cover: https://pub-bc8bb06ab87643fb88805fdddf1cab70.r2.dev/blog/union-marital-de-hecho-declaracion/union-marital-v2-cover-1200x630.webp
 thumbnail: https://pub-bc8bb06ab87643fb88805fdddf1cab70.r2.dev/blog/union-marital-de-hecho-declaracion/union-marital-v2-thumb-600x315.webp
-coverAlt: "Pareja firmando declaración de unión marital de hecho ante notario"
-tags: Unión Marital de Hecho, Sociedad Patrimonial, Ley 54 de 1990, Familia, Notaría
+coverAlt: "Pareja firmando declaración de unión marital de hecho ante notario"tags: Unión Marital de Hecho, Sociedad Patrimonial, Ley 54 de 1990, Familia, Notaría
 author: Carlos Salamanca
-description: "Cómo declarar la unión marital de hecho en Colombia por notaría, conciliación o juez, requisitos de 2 años, qué bienes entran a la sociedad patrimonial y plazo de 1 año."
-sources_used:
-  - "https://www.minjusticia.gov.co/programas-co/LegalApp/Paginas/Que-debo-hacer-para-declarar-que-convivo-en-union-libre.aspx"
-  - "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=30896"
-  - "https://normas.cra.gov.co/gestor/docs/ley_0054_1990.htm"
----
+description: "Cómo declarar la unión marital de hecho en Colombia por notaría, conciliación o juez, requisitos de 2 años, qué bienes entran a la sociedad patrimonial y plazo de 1 año."sources_used:
+  - "https://www.minjusticia.gov.co/programas-co/LegalApp/Paginas/Que-debo-hacer-para-declarar-que-convivo-en-union-libre.aspx"- "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=30896"- "https://normas.cra.gov.co/gestor/docs/ley_0054_1990.htm"---
 
 > **TL;DR — 45 segundos**
 > - La unión marital de hecho nace cuando dos mayores hacen vida en pareja sin casarse. No necesita 2 años para declararla, pero la sociedad patrimonial sí exige 2 años de convivencia continua.
@@ -30,10 +23,9 @@ sources_used:
 
 <!-- type: intro -->
 
-Claudia y Javier llevan 8 años viviendo juntos en el barrio El Poblado de Medellín. Compraron un apartamento en Envigado a nombre de él, un carro a nombre de ella y nunca se casaron. Cuando se separaron, ella escuchó la frase que más trae clientes a SK: "llevamos años juntos, la mitad es mía". No. Sin declarar la unión y la sociedad, la mitad no es automática.
+Caso ilustrativo: los datos son ficticios. Una pareja con convivencia prolongada
 
-El error es creer que convivir reparte. La ley no reparte por convivir, reparte lo que se prueba que se construyó en pareja y que se declara a tiempo. En SK, 4 de cada 10 consultas de familia llegan con esa frase y con un apartamento a nombre de uno solo. Sin declaración, ese apartamento no se parte.
-
+El error es creer que convivir reparte. La ley no reparte por convivir, reparte lo que se prueba que se construyó en pareja y que se declara a tiempo. 
 En este artículo encontrarás:
 - Diferencia entre unión marital y sociedad patrimonial y por qué puedes tener una sin la otra
 - Requisitos de la Ley 54 de 1990 y Ley 979 de 2005 para que nazca la sociedad
@@ -70,7 +62,7 @@ El artículo 2 de la Ley 54, modificado por la Ley 979 de 2005, presume sociedad
 
 **b) Con impedimento:** unión de al menos 2 años donde uno o ambos tienen impedimento (siguen casados con otra persona), pero la sociedad conyugal anterior fue disuelta y liquidada por lo menos 1 año antes de iniciar la unión [MinJusticia](https://www.minjusticia.gov.co/programas-co/LegalApp/Paginas/Que-debo-hacer-para-declarar-una-sociedad-patrimonial-de-hecho.aspx).
 
-Si tu pareja seguía casada y nunca liquidó, la nueva sociedad no nace, aunque lleven 10 años. La Corte ha precisado que basta la disolución, y la exigencia del año de liquidación fue declarada inexequible en parte, pero la disolución sí es requisito.
+Si tu pareja seguía casada y nunca liquidó, la nueva sociedad no nace, aunque lleven 10 años. La Corte ha precisado que basta que esté disuelta, y la exigencia del año de liquidación fue declarada inexequible en parte, pero la disolución sí es requisito.
 
 Prueba de los 2 años: testimonios, cuentas conjuntas, registros de hijos, contratos de arrendamiento a nombre de ambos, fotos con vocación de permanencia. No es una fecha en un papel, es convivencia ininterrumpida.
 
@@ -102,7 +94,7 @@ Entra lo que compren durante la sociedad con esfuerzo común, por partes iguales
 
 **No entra:** la casa que él heredó de su padre, la donación que ella recibió, el apartamento que él compró 2 años antes de conocerse, ni los bienes del hijo menor. Pero sí entran los frutos: si la casa heredada se arrendó y produjo $30 millones en arriendos durante la unión, esos frutos sí son sociales [Ley 54 art. 3](https://normas.cra.gov.co/gestor/docs/ley_0054_1990.htm).
 
-Si no lo tienes claro, haz inventario con fechas: "apartamento Envigado, matrícula 001-123, comprado 15-03-2020 por $280M, ya convivíamos desde 2018" → sí entra. "Herencia 2022 por $120M" → no entra.
+Si no lo tienes claro, haz inventario con fechas: "apartamento Envigado, matrícula 001-123, comprado 15-03-2020 por $280M, ya convivíamos desde 2018"→ sí entra. "Herencia 2022 por $120M"→ no entra.
 
 ---
 
@@ -127,7 +119,7 @@ Por eso, tras una separación, el consejo no es "espere a ver". Es radique la de
 - No disolver la sociedad conyugal anterior antes de iniciar la nueva unión. Si sigue vigente, la nueva sociedad no nace aunque lleves 10 años.
 - No guardar pruebas de la convivencia ininterrumpida: contratos, facturas conjuntas, registros de hijos, fotos con fecha.
 - Dejar vencer el año tras la separación sin demandar. El juez te dirá prescrito y pierdes el 50%.
-- Pensar que "sucesión en vida" reparte herencia sin sucesión. No existe; se hace donación, usufructo y nuda propiedad o fideicomiso civil, no papel firmado en casa con testigos.
+- Pensar que "sucesión en vida"reparte herencia sin sucesión. No existe; se hace donación, usufructo y nuda propiedad o fideicomiso civil, no papel firmado en casa con testigos.
 - Declarar la unión pero no registrarla en el registro civil. Sin registro, no es oponible a terceros.
 
 ---
@@ -164,7 +156,7 @@ En matrimonio la sociedad conyugal nace desde el día de la boda. En unión mari
 
 Tampoco es lo mismo registrar la unión que registrar la sociedad. Puedes registrar la unión en el registro civil al mes de convivir y quedar con estado "compañero permanente". La sociedad la registrarás después, cuando cumplas los 2 años y la declares. No confundas el acta de unión con el inventario de la sociedad.
 
-Si tu plan es dejarle la casa a tus hijos sin hacer dos sucesiones, la unión no te sirve. Ahí el camino es usufructo y nuda propiedad o fideicomiso civil, no "sucesión en vida" que no existe. Ver [sucesión de bienes en Bogotá](/blog/sucesion-bienes-bogota) para esa ruta.
+Si tu plan es dejarle la casa a tus hijos sin hacer dos sucesiones, la unión no te sirve. Ahí el camino es usufructo y nuda propiedad o fideicomiso civil, no "sucesión en vida"que no existe. Ver [sucesión de bienes en Bogotá](/blog/sucesion-bienes-bogota) para esa ruta.
 
 ---
 
@@ -194,7 +186,7 @@ Si convives sin casarte y ya pasaron 2 años, declara la unión y la sociedad po
 2. Haz inventario con fechas, matrículas y avalúos de lo comprado durante la unión. Sin inventario no hay liquidación.
 3. Si hay acuerdo, ve a notaría con registros civiles y poder; si no, prepara demanda ante juez de familia con las pruebas de los 2 años y pide medida cautelar si hay riesgo de venta.
 
-En SK Soluciones revisamos tu caso, tu fecha de inicio y tus bienes para decirte si ya hay sociedad y por qué vía declararla sin perder el año. Guarda copia de todo en una carpeta compartida con tu pareja si hay acuerdo. Cuéntanos en [asesoría inicial](/landing/asesoria-inicial#consulta) desde cuándo conviven, si alguno sigue casado y qué bienes compraron juntos. Si tu caso es de herencia y no de unión, ve a [sucesión de bienes en Bogotá](/blog/sucesion-bienes-bogota).
+En SK Soluciones revisamos tu caso, tu fecha de inicio y tus bienes para decirte si ya hay sociedad y por qué vía declararla sin perder el año. Guarda copia de todo en una carpeta compartida con tu pareja si hay acuerdo. Cuéntenos en [asesoría inicial](/landing/asesoria-inicial#consulta) desde cuándo conviven, si alguno sigue casado y qué bienes compraron juntos. Si tu caso es de herencia y no de unión, ve a [sucesión de bienes en Bogotá](/blog/sucesion-bienes-bogota).
 
 <!-- END ARTICLE — INTERNAL NOTES BELOW, STRIP AT PUBLISH -->
-Internal: keyword union marital de hecho declaracion vol 390, intent informational-transactional. Deep research Ley 54/979 2 años sociedad 1 año prescripción. People-first 8.5 - strengths: historia Claudia Javier Poblado + tabla bienes; improvements: añadir modelo minuta escritura.
+Internal: keyword union marital de hecho declaracion vol 390, intent informational-transactional. Deep research Ley 54/979 2 años sociedad 1 año prescripción. People-first 8.5 - strengths: historia Caso ilustrativo  Poblado + tabla bienes; improvements: añadir modelo minuta escritura.

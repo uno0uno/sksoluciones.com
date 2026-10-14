@@ -14,7 +14,7 @@ author: Carlos Salamanca
 > - Si un heredero no firma, la notaría no puede hacer la sucesión: se vuelve judicial y decide un juez de familia.
 > - No puede bloquear para siempre: cualquier heredero puede demandar y el juez reparte aunque el otro no firme.
 > - La vía notarial es 1-4 meses con acuerdo total; la judicial es 6-24 meses y requiere abogado si supera 15 SMLMV.
-> - Tienes 10 años para reclamar tu herencia contados desde la muerte, pero mientras no haya acuerdo los bienes quedan bloqueados.
+> - La petición de herencia prescribe en 10 años para reclamar tu herencia contados desde la muerte, pero mientras no haya acuerdo los bienes quedan bloqueados.
 > - Si vive en la casa y no quiere salir, no gana la casa por vivir ahí: es poseedor sin título y la partición lo obliga a entregar o vender.
 > - Si está en el exterior, firma con poder apostillado y va virtual; si no aparece, le ponen curador y el juez sigue.
 
@@ -22,7 +22,7 @@ author: Carlos Salamanca
 
 <!-- type: intro -->
 
-Gloria, 52 años, vive en Suba con su madre de 78. Su padre falleció hace 2 años dejando un apartamento en Kennedy y un lote en Soacha. Son 4 hermanos. Tres quieren vender y repartir. Uno vive en el apartamento de Kennedy, no paga arriendo, no firma y dice "de aquí no me sacan". El lote de Soacha vale hoy $180 millones y sigue sin escriturar. La familia lleva 18 meses sin poder tocar un peso.
+Caso ilustrativo: los datos son ficticios. Un grupo de herederos no logra vender porque uno de ellos habita un inmueble de la sucesión y no firma. El resto lleva meses sin poder disponer de los bienes.
 
 Historias como la de Gloria son la primera causa de consulta por sucesiones en SK. La frase que más llega es "un hermano no quiere firmar". La respuesta es corta: sin firma no hay notaría, pero sí hay juzgado. Y el juez no te va a pedir que convenzas a tu hermano, te va a pedir papeles.
 
@@ -41,7 +41,7 @@ En este artículo encontrarás:
 
 No. La ley colombiana protege el derecho a heredar por encima del capricho de uno. Si hay testamento se reparte según testamento, si no hay se reparte por ley entre herederos del mismo orden.
 
-Lo que sí bloquea es la vía notarial. La sucesión por escritura pública exige unanimidad: todos los herederos firman la partición. Si uno dice no, la notaría te devuelve y te dice "vayan al juez" [El País](https://www.elpais.com.co/colombia/que-pasa-cuando-un-heredero-no-quiere-firmar-la-sucesion-esto-dice-la-ley-3010.html).
+Lo que sí bloquea es la vía notarial. La sucesión por escritura pública exige unanimidad: todos los herederos firman la partición. Si uno dice no, la notaría te devuelve y te dice "vayan al juez"[El País](https://www.elpais.com.co/colombia/que-pasa-cuando-un-heredero-no-quiere-firmar-la-sucesion-esto-dice-la-ley-3010.html).
 
 La vía judicial es el desbloqueo. Cualquier heredero puede demandar la sucesión ante juez de familia y el juez cita a todos, decreta inventarios y avalúos, nombra partidor y adjudica aunque el renuente no firme. Nadie se queda con la casa por no firmar. El juez puede incluso ordenar el remate y repartir el dinero si no hay acuerdo en el avalúo.
 
@@ -89,7 +89,7 @@ Vivir en la casa no da propiedad. Es mera tenencia. Mientras no haya partición,
 
 No puede alegar prescripción adquisitiva contra coherederos por solo vivir ahí, porque su posesión es tolerada, no como señor y dueño.
 
-Si vendió un bien sin firmar todos, la venta es inoponible a la masa herencial y se puede impugnar con acción de simulación o de rescisión. El comprador de buena fe puede quedar con un pleito de años y tú con el bien embargado. Por eso, si ves un aviso de venta en la casa de Kennedy sin tu firma, pide medida cautelar de embargo y secuestro del inmueble al radicar la demanda.
+Si vendió un bien sin firmar todos, la venta es inoponible a la masa herencial y se puede impugnar con venta de cosa ajena en lo que no le pertenece (Art. 1871 CC). El comprador de buena fe puede quedar con un pleito de años y tú con el bien embargado. Por eso, si ves un aviso de venta en la casa de Kennedy sin tu firma, pide medida cautelar de embargo y secuestro del inmueble al radicar la demanda.
 
 ---
 
@@ -100,9 +100,9 @@ Si vendió un bien sin firmar todos, la venta es inoponible a la masa herencial 
 
 **Judicial:** 6 meses si hay acuerdo en el camino (art. 521 CGP permite pasar a notaría en cualquier momento si todos se ponen de acuerdo) y hasta 24 meses si hay pelea por avalúos o testamento. Más despacho saturado. En Bogotá, un juzgado de familia puede tardar 8-12 meses solo en fijar inventarios si hay perito.
 
-En costos, la notaría cobra según avalúo y el registro cobra beneficencia y registro. En lo judicial, además van honorarios del abogado (usualmente 5-10% de la masa según complejidad), perito avaluador y curador si hay emplazado. Pide cotización cerrada antes de demandar y no por porcentaje abierto.
+En costos, la notaría cobra según avalúo y el registro cobra beneficencia y registro. En lo judicial, además van honorarios del abogado (usualmente  según complejidad), perito avaluador y curador si hay emplazado. Pide cotización cerrada antes de demandar y no por porcentaje abierto.
 
-Tienes 10 años para reclamar tu herencia desde la muerte, pero mientras no haya partición los bienes están bloqueados: no puedes vender la casa ni hipotecarla sin firma de todos o sentencia.
+La petición de herencia prescribe en 10 años para reclamar tu herencia desde la muerte, pero mientras no haya partición los bienes están bloqueados: no puedes vender la casa ni hipotecarla sin firma de todos o sentencia.
 
 ---
 
@@ -135,11 +135,11 @@ Si tu hermano está privado de la libertad o con interdicción, también va con 
 <!-- type: body-explanation -->
 ## Avalúos: por qué pelean y cómo se fija el valor real
 
-La pelea más común después de "no firmo" es "esa casa no vale eso". Para eso el partidor usa avalúo catastral actualizado y avalúo comercial con perito. Si hay desacuerdo, cada parte presenta su avalúo y el juez decide con un perito auxiliar.
+La pelea más común después de "no firmo"es "esa casa no vale eso". Para eso el partidor usa avalúo catastral actualizado y avalúo comercial con perito. Si hay desacuerdo, cada parte presenta su avalúo y el juez decide con un perito auxiliar.
 
 Para Bogotá, el certificado catastral y el IGAC son base, pero el juez mira el mercado: venta de apartamentos similares en Kennedy o Soacha en los últimos 6 meses, estado de conservación, deudas de administración y valorización. Si tu hermano vive en la casa y no ha pagado administración por 2 años, esa deuda entra al pasivo y se descuenta antes de repartir.
 
-Si hay testamento con asignación de un bien específico, se respeta la legítima: no puedes dejar todo a uno solo si hay herederos forzosos. Si el testamento viola legítima, se impugna por simulación o por lesión.
+Si hay testamento con asignación de un bien específico, se respeta la legítima: no puedes dejar todo a uno solo si hay herederos forzosos. Si el testamento viola legítima, procede acción de reforma del testamento (Art. 1274 CC).
 
 ---
 
@@ -148,11 +148,11 @@ Si hay testamento con asignación de un bien específico, se respeta la legítim
 
 | Mito | Realidad |
 |---|---|
-| "Si no firmo, no hay sucesión" | Sí hay, por juzgado, y el juez reparte sin tu firma |
-| "El que vive en la casa se queda con ella" | No, es comunero. El juez puede ordenar venta y repartir |
-| "Sucesión en vida con papel firmado" | No existe. Se hace con usufructo/nuda propiedad por escritura |
-| "Necesito que todos estemos en Colombia" | No, con poder apostillado y audiencia virtual basta |
-| "Si no aparece, se archiva" | No, va curador y sigue |
+| "Si no firmo, no hay sucesión"| Sí hay, por juzgado, y el juez reparte sin tu firma |
+| "El que vive en la casa se queda con ella"| No, es comunero. El juez puede ordenar venta y repartir |
+| "Sucesión en vida con papel firmado"| No existe. Se hace con usufructo/nuda propiedad por escritura |
+| "Necesito que todos estemos en Colombia"| No, con poder apostillado y audiencia virtual basta |
+| "Si no aparece, se archiva"| No, va curador y sigue |
 
 ---
 
@@ -161,14 +161,14 @@ Si hay testamento con asignación de un bien específico, se respeta la legítim
 
 Si lo que te preocupa es que tus hijos tengan que hacer sucesión tuya y de tu pareja, la sucesión bloqueada no es la vía. La vía es planear en vida: donación o compraventa con reserva de usufructo vitalicio y nuda propiedad. Se hace por escritura, se registra y evitas la segunda sucesión. Ver [sucesión de bienes en Bogotá](/blog/sucesion-bienes-bogota) y [unión marital de hecho declaracion](/blog/union-marital-de-hecho-declaracion) para esa ruta.
 
-No existe "sucesión en vida" con papel firmado en casa. Eso no reparte. Si lo haces, el notario te lo va a devolver y los otros herederos pueden impugnarlo por simulación.
+No existe "sucesión en vida"con papel firmado en casa. Eso no reparte. Si lo haces, el notario te lo va a devolver y los otros herederos pueden impugnarlo por simulación.
 
 ---
 
 <!-- type: body-data -->
 ## Costos ocultos que nadie te dice al inicio
 
-La notaría te cobra por avalúo, el registro por beneficencia y el abogado por porcentaje. En lo judicial suma: perito avaluador ($800.000-$1.500.000 por inmueble en Bogotá), curador ad litem si hay emplazado ($1.000.000 aprox), y secuestre si hay embargo. Pide cotización cerrada por escrito antes de firmar poder y no aceptes "10% de lo que te toque" sin tope.
+La notaría te cobra por avalúo, el registro por beneficencia y el abogado por porcentaje. En lo judicial suma: perito avaluador ($800.000-$1.500.000 por inmueble en Bogotá), curador ad litem si hay emplazado ($1.000.000 aprox), y secuestre si hay embargo. Pide cotización cerrada por escrito antes de firmar poder y no aceptes "10% de lo que te toque"sin tope.
 
 ---
 
@@ -187,7 +187,7 @@ La notaría te cobra por avalúo, el registro por beneficencia y el abogado por 
 
 **¿Si hay testamento y mi hermano no lo respeta?** El testamento se lleva al juez. Si viola legítima, se pide reforma. Si es falso, se impugna. El juez lo valida antes de partir.
 
-**¿Puedo conciliar después de demandar?** Sí. En cualquier momento pueden pedir al juez terminar el proceso y pasar a notaría si todos firman. El art. 521 CGP lo permite.
+**¿Puedo conciliar después de demandar?** Sí. En cualquier momento pueden pedir al juez terminar el proceso y pasar a notaría si todos firman. El lo permite.
 
 ---
 
@@ -200,4 +200,4 @@ Si tu hermano no quiere firmar, no ruegues otro año.
 2. Intenta una conciliación y guarda el acta de no acuerdo.
 3. Demanda la sucesión. Con la sentencia registras y vendes o adjudicas.
 
-En SK Soluciones revisamos tu inventario y tu parentesco en la primera cita y te decimos si te alcanza la notaría o si toca desbloquear por juzgado y cuánto tardaría en tu ciudad. Lleva fotos del apartamento, paz y salvos y avalúo previo para no perder la primera audiencia. Cuéntanos en [asesoría inicial](/landing/asesoria-inicial#consulta) quién falleció, cuántos heredan, qué bienes hay y quién no quiere firmar. Si tu caso es de casa a nombre de uno solo tras separación, revisa [unión marital de hecho](/blog/union-marital-de-hecho-declaracion).
+En SK Soluciones revisamos tu inventario y tu parentesco en la primera cita y te decimos si te alcanza la notaría o si toca desbloquear por juzgado y cuánto tardaría en tu ciudad. Lleva fotos del apartamento, paz y salvos y avalúo previo para no perder la primera audiencia. Cuéntenos en [asesoría inicial](/landing/asesoria-inicial#consulta) quién falleció, cuántos heredan, qué bienes hay y quién no quiere firmar. Si tu caso es de casa a nombre de uno solo tras separación, revisa [unión marital de hecho](/blog/union-marital-de-hecho-declaracion).

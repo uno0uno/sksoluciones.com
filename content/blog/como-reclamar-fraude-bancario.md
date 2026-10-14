@@ -11,19 +11,19 @@ author: Carlos Salamanca
 ---
 
 > **TL;DR — 45 segundos**
-> - Si te vaciaron por vishing, phishing, smishing, cambiazo, SIM swapping o PSE/Nequi, **reclama primero al banco por escrito y guarda el radicado**. El banco tiene 15 días hábiles para responder.
+> - Si le vaciaron por vishing, phishing, smishing, cambiazo, SIM swapping o PSE/Nequi, **reclama primero al banco por escrito y guarda el radicado**. El banco tiene 15 días hábiles para responder.
 > - Denuncia en Fiscalía o Policía (ADenunciar) dentro de las primeras 24 horas y guarda el SPOA: te lo pedirá el banco y la SFC.
 > - Si el banco niega o no responde en 15 días, puedes quejarte, pedir conciliación o demandar ante la Superfinanciera — sin abogado si es menos de 40 salarios mínimos.
-> - Bancolombia, Davivienda, Nequi y Daviplata nunca te piden claves por link o llamada: su dominio oficial es `bancol.co`. Si diste datos por un link, bloquea y cambia claves de inmediato.
-> - Desde noviembre 2026 la Ley 2573 te permite suspender cobros y reportes por suplantación mientras la justicia decide. Ver [Ley 2573 si es fraude no se paga](/blog/ley-2573-si-es-fraude-no-se-paga).
+> - Ningún banco le pide claves por enlace o llamada. Los enlaces oficiales de Bancolombia empiezan por `bancol.co`. Si digitó datos por un enlace, bloquee y cambie claves de inmediato.
+> - Desde el 19 de noviembre de 2026 la Ley 2573 permite suspender cobros y reportes por suplantación (Art. 5 par. 2 ya vigente desde el 19 de mayo de 2026 si hubo fallas del banco). Ver [Ley 2573 si es fraude no se paga](/blog/ley-2573-si-es-fraude-no-se-paga).
 
 ---
 
 <!-- type: intro -->
 
-Andrés Pardo, 41 años, taxista en el barrio Kennedy de Bogotá, conocía bien el cuento del cambiazo. Aun así, una tarde un "asesor" de Bancolombia lo llamó para validar una compra de $890.000 que él no había hecho. Le mandaron un link que se veía idéntico a la Sucursal Virtual, puso usuario y clave, y en 18 minutos le debitaron $4.300.000 por PSE a una cuenta Nequi que no existía. Cuando fue a la sucursal, le dijeron que él había entregado voluntariamente los datos.
+Caso ilustrativo: los datos son ficticios. Usted recibe una llamada que suplanta a un banco para validar una compra que no hizo, ingresa a un enlace que simula la sucursal virtual y minutos después ve un débito por PSE a una cuenta que no reconoce. Al reclamar, le responden que usted entregó los datos voluntariamente.
 
-Historias como la de Andrés se repiten con el mismo libreto en Medellín, Cali, Bucaramanga y Yopal: el banco dice "fue culpa del cliente" y la víctima queda con el extracto en la mano sin saber por dónde empezar. No es un problema de una sola entidad. Bancolombia advierte hoy sobre vishing y smishing, Davivienda y Nequi alertan sobre mensajes falsos, y el SIM swapping deja el celular sin señal y la cuenta vacía en minutos.
+Casos como este se repiten con el mismo libreto en Medellín, Cali, Bucaramanga y Yopal: el banco dice "fue culpa del cliente"y la víctima queda con el extracto en la mano sin saber por dónde empezar. No es un problema de una sola entidad. Bancolombia advierte hoy sobre vishing y smishing, Davivienda y Nequi alertan sobre mensajes falsos, y el SIM swapping deja el celular sin señal y la cuenta vacía en minutos.
 
 En este artículo encontrarás:
 - Qué modalidad te pasó (vishing, phishing, smishing, pharming, cambiazo, SIM swapping, PSE/Nequi) y por qué importa para el reclamo
@@ -39,13 +39,13 @@ En este artículo encontrarás:
 
 El banco te va a pedir que describas el hecho. Si lo nombras bien, el reclamo entra por el canal correcto.
 
-**Vishing.** Te llaman, suena el número del banco, te pasan con un "asesor" o un bot que te dice que hay un fraude y que debes validar datos o llamar a otro número. Bancolombia explica que usan marcadores que disparan a miles de números y una grabación te manda a un número que no es del banco [Bancolombia](https://www.bancolombia.com/centro-de-ayuda/preguntas-frecuentes/que-hacer-en-caso-de-fraude-bancario).
+**Vishing.** Te llaman, suena el número del banco, te pasan con un "asesor"o un bot que te dice que hay un fraude y que debes validar datos o llamar a otro número. Bancolombia explica que usan marcadores que disparan a miles de números y una grabación te manda a un número que no es del banco [Bancolombia](https://www.bancolombia.com/centro-de-ayuda/preguntas-frecuentes/que-hacer-en-caso-de-fraude-bancario).
 
 **Phishing y smishing.** Te llega un correo o un SMS que parece del banco: "transferencia pendiente, acepta aquí". El link te lleva a una página clonada de `bancol.co` o de Davivienda. Allí pones usuario y clave. El smishing es la misma historia pero por SMS. En agosto de 2025 Bancolombia y el Banco de la República alertaron que esta modalidad ya vaciaba cuentas de Bancolombia, Davivienda, Nequi y Daviplata en segundos.
 
 **Pharming.** No te llaman. La página que abres ya es falsa: clon de pagos de pico y placa, de Movistar, de aportes en línea o de tu EPS. Escribes tus datos y el atacante los cosecha.
 
-**Cambiazo en cajero y cambiazo con mensajero.** En el cajero alguien "te ayuda" y te cambia la tarjeta. En la segunda, te dicen que van a tu casa a recoger la tarjeta por seguridad. Ambas terminan con compras en otra ciudad.
+**Cambiazo en cajero y cambiazo con mensajero.** En el cajero alguien "te ayuda"y te cambia la tarjeta. En la segunda, te dicen que van a tu casa a recoger la tarjeta por seguridad. Ambas terminan con compras en otra ciudad.
 
 **SIM swapping.** De repente te quedas sin señal, el celular dice "sin servicio". No es falla técnica. Duplicaron tu SIM y tu número ya está en otro teléfono. Con eso interceptan los SMS con códigos de tu banco. Esta modalidad crece en Colombia desde 2021 y deja el rastro más visible: la pérdida de señal [El Universal](https://www.eluniversal.com.co/colombia/2025/08/13/sim-swapping-en-colombia-asi-duplican-tu-tarjeta-sim-para-robar-tu-dinero-en-minutos/).
 
@@ -66,7 +66,7 @@ Haz esto en orden y por canales oficiales. No llames al número del SMS.
 4. **Guarda todo.** SMS, link, pantallazos del débito, hora, número que te llamó, extracto. Sin pruebas la SFC no puede avanzar.
 5. **Avisa al banco receptor si fue PSE/Nequi.** Pide constancia de que informaste. Para Ley 2573 el aviso dispara la suspensión, pero para fraude tradicional también deja trazabilidad.
 
-No digas en esa llamada "yo di la clave". Di "recibí una comunicación que suplantaba al banco y se hizo un débito que no autoricé el [fecha/hora] por [canal]".
+Cuente el hecho, no se califique. Bien: "Recibí una llamada que suplantó al banco y a las 9:51 dicté el código que me llegó". Evite: "Entregué la clave voluntariamente" — el banco lo usa en contra.
 
 ---
 
@@ -89,7 +89,7 @@ No pidas "que me ayuden". Pide "que se revierta la operación no autorizada por 
 - **Bancolombia:** Sucursal Telefónica opción 3-3 o sucursal física con cédula. Para Davivienda, Nequi y Daviplata usa su app y su línea oficial, nunca el link del mensaje. Nequi nunca pide clave completa por link externo.
 - **Todos:** pide número de radicado y guarda el PDF. El banco tiene 15 días hábiles para responder. Si no responde o no te convence, es tu puerta a la SFC.
 
-No firmes paz y salvo ni aceptes "devolución parcial" sin entender si cierras la reclamación. Si te ofrecen la mitad, pide por escrito si es a título de transacción total.
+No firmes paz y salvo ni aceptes "devolución parcial"sin entender si cierras la reclamación. Si le ofrecen la mitad, pide por escrito si es a título de transacción total.
 
 Si tu caso es un crédito abierto a tu nombre que nunca pediste, además pide copia de los documentos con los que aprobaron el producto. Con Ley 2573 es obligación entregarlos, y con fraude tradicional también te sirve para el cotejo.
 
@@ -131,11 +131,9 @@ Hazla dentro de las primeras 24 horas como recomienda la SFC y la Policía. Si e
 <!-- type: body-how-to -->
 ## Cómo escalar a la Superfinanciera: queja, conciliación y demanda
 
-La SFC no es solo un buzón. Tiene tres escalones y tú eliges hasta dónde ir [Superfinanciera](https://www.superfinanciera.gov.co/publicaciones/10115896/que-hacer-si-eres-victima/).
+La ruta SK es: reclamación escrita al banco y, si niegan o no responden en 15 días hábiles, demanda ante la Superintendencia Financiera. La queja no obliga al banco; si se menciona, se aclara que no es escalón [Superfinanciera](https://www.superfinanciera.gov.co/publicaciones/10115896/que-hacer-si-eres-victima/).
 
-**1. Queja contra la entidad vigilada.** La radicas en el formulario de Solicitudes, Peticiones, Quejas, Reclamos del portal de la SFC. La SFC se la traslada a la entidad y le hace seguimiento. Es el primer filtro y es gratis.
-
-**2. Conciliación con el Defensor del Consumidor Financiero.** Si la queja no te convence, pides conciliación. Te citan virtual con la entidad y un conciliador neutral. Dura 3 meses prorrogables 3 más. Si hay acuerdo, el acta presta mérito ejecutivo y hace cosa juzgada.
+**Reclamación escrita → Demanda.** La conciliación es voluntaria y no es requisito. Si opta por ella, no se presenta como solución general.
 
 **3. Demanda de protección al consumidor financiero (acción jurisdiccional).** Aquí ya decide un juez de la SFC.
 
@@ -147,8 +145,6 @@ Requisitos para demandar [SFC ABC de la demanda](https://www.superfinanciera.gov
 - Si es menos de 40 SMLMV, no necesitas abogado. Entre 40 y 150 necesitas abogado, y más de 150 también.
 
 Radicas en `smart.superfinanciera.gov.co`, por correo `jurisdiccionales@superfinanciera.gov.co` o en Calle 7 #4-49 Bogotá. Te llega SMS con radicado de 10 dígitos para seguimiento en "Consulta tu proceso". Si te inadmiten, tienes 5 días hábiles para corregir.
-
-En SK vemos que muchos casos se resuelven en queja o conciliación sin llegar a sentencia, si el reclamo está bien armado desde el inicio.
 
 ---
 
@@ -162,22 +158,14 @@ Guarda en una carpeta con fecha:
 - Extracto donde se ve el débito y la cuenta destino
 - Radicado del banco y respuesta
 - Denuncio Fiscalía / ADenunciar con SPOA
-- Certificación del operador si hubo SIM swapping ("sin servicio" desde las X horas)
+- Certificación del operador si hubo SIM swapping ("sin servicio"desde las X horas)
 - Si fue cambiazo, foto del cajero y hora
 
 Frases que te cierran la puerta:
 
-- "Yo entregué mi clave voluntariamente"
-- "Yo autoricé la transacción sin darme cuenta"
-- "Acepto la devolución parcial y desisto"
+- "Yo entregué mi clave voluntariamente"- "Yo autoricé la transacción sin darme cuenta"- "Acepto la devolución parcial y desisto"Cambia por:
 
-Cambia por:
-
-- "Recibí comunicación que suplantaba al banco y se hizo una operación que no autoricé"
-- "Solicito reversión por falla en el sistema de autenticación"
-- "Solicito entrega de logs de validación"
-
----
+- "Recibí comunicación que suplantaba al banco y se hizo una operación que no autoricé"- "Solicito reversión por falla en el sistema de autenticación"- "Solicito entrega de logs de validación"---
 
 <!-- type: body-comparison -->
 ## ¿Reclamo tradicional o Ley 2573?
@@ -185,9 +173,9 @@ Cambia por:
 No todo fraude es Ley 2573.
 
 - **Reclamo tradicional** (este artículo): te vaciaron la cuenta, te hicieron compras, te debitaron PSE. Pides reversión por falla de seguridad del banco y escalas a SFC en 15 días.
-- **Ley 2573** (desde noviembre 2026): te abrieron un crédito o producto a tu nombre que nunca pediste. Ahí pides suspensión inmediata de cobro y corrección en Datacrédito con prueba sumaria y denuncio en 20 días, y la marca "Víctima de Falsedad Personal". Ver [Ley 2573 si es fraude no se paga](/blog/ley-2573-si-es-fraude-no-se-paga).
+- **Ley 2573** (desde el 19 de noviembre de 2026; Art. 5 par. 2 ya vigente desde el 19 de mayo de 2026 para devolución por fallas del banco): le abrieron un crédito o producto a su nombre que no pidió. Ahí pides suspensión inmediata de cobro y corrección en Datacrédito con prueba sumaria y denuncio en 20 días, y la marca "Víctima de Falsedad Personal". Ver [Ley 2573 si es fraude no se paga](/blog/ley-2573-si-es-fraude-no-se-paga).
 
-Si te pasó un débito, usa este flujo. Si te aparece un crédito suplantado y te reportaron, usa el otro. A veces coexisten: te vaciaron y además te abrieron un crédito. Haz dos radicados separados.
+Si le pasó un débito, usa este flujo. Si te aparece un crédito suplantado y te reportaron, usa el otro. A veces coexisten: te vaciaron y además te abrieron un crédito. Haz dos radicados separados.
 
 ---
 
@@ -221,12 +209,12 @@ Si te pasó un débito, usa este flujo. Si te aparece un crédito suplantado y t
 <!-- type: conclusion -->
 ## Qué hacer hoy mismo
 
-Si te pasó hoy, haz esto en este orden y con papeles:
+Si le pasó hoy, haz esto en este orden y con papeles:
 
 1. Bloquea y radica el reclamo escrito en el banco con radicado. Usa la plantilla de este artículo y pide logs de autenticación.
 2. Denuncia en Fiscalía/ADenunciar en 24 horas por falsedad personal y guarda el SPOA.
 3. Si a los 15 días no te responden o te niegan, escala a la SFC en su portal de quejas y, si hace falta, pide conciliación o demanda sin abogado si es menos de 40 SMLMV.
 
-En SK Soluciones revisamos tu extracto, tu radicado y tu denuncio en la primera hora y te decimos si tu caso va por reclamo tradicional o por Ley 2573, y qué decir exactamente en cada radicado para no cerrar la puerta.
+En SK Soluciones revisamos su extracto, radicado y denuncio y le decimos con honestidad si su caso va por reclamo tradicional o por Ley 2573.
 
-¿Te pasó por vishing, phishing, cambiazo, SIM swapping o PSE a Nequi? Cuéntanos por [asesoría inicial](/landing/asesoria-inicial#consulta) qué canal usaron, a qué banco, cuánto te sacaron y qué te respondió el banco. Con eso armamos la hoja de ruta. Si tu caso ya es un crédito suplantado, empieza por [Ley 2573](/blog/ley-2573-si-es-fraude-no-se-paga).
+¿Le pasó por vishing, phishing, cambiazo, SIM swapping o PSE a Nequi? Cuéntenos por [asesoría inicial](/landing/asesoria-inicial#consulta) qué canal usaron, a qué banco, cuánto le debitaron y qué te respondió el banco. Con eso armamos la hoja de ruta. Si tu caso ya es un crédito suplantado, empieza por [Ley 2573](/blog/ley-2573-si-es-fraude-no-se-paga).
