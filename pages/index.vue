@@ -1,5 +1,8 @@
 <script setup>
 import { ShieldCheckIcon, DocumentTextIcon, ArrowPathIcon, ScaleIcon, UserGroupIcon, TruckIcon, BuildingOffice2Icon, BookOpenIcon } from '@heroicons/vue/24/outline';
+import { listBlogPosts } from '~/utils/blog';
+
+const blogPosts = computed(() => listBlogPosts().slice(0, 3));
 
 definePageMeta({
   layout: 'landingv2',
@@ -261,6 +264,23 @@ const corporateServices = [
               <p class="text-on-ink-muted text-sm leading-relaxed">{{ service.description }}</p>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="bg-surface py-16 sm:py-20 lg:py-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <p class="text-sm font-semibold uppercase tracking-widest text-ink-muted mb-3">Blog</p>
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-ink">Artículos recientes</h2>
+          <p class="mt-4 text-ink-muted max-w-2xl mx-auto text-base sm:text-lg">Guías claras sobre fraude bancario, sucesiones y patrimonio para decidir con respaldo legal.</p>
+        </div>
+        <BlogArticleGrid :posts="blogPosts" />
+        <div class="mt-10 text-center">
+          <NuxtLink to="/blog" class="inline-flex items-center justify-center px-6 py-3 border border-line rounded-lg text-sm font-semibold text-ink hover:bg-surface-elevated transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-action">
+            Ver todos los artículos
+          </NuxtLink>
         </div>
       </div>
     </section>

@@ -40,15 +40,18 @@ useHead(() => ({
 
 <template>
   <div>
-    <section class="border-b border-line bg-surface-elevated">
-      <div class="page-container py-14 sm:py-16">
-        <p class="text-caption font-semibold uppercase tracking-[0.14em] text-brand">
-          Blog
-        </p>
-        <h1 class="mt-3 text-title text-ink">
+    <section class="relative bg-surface-elevated overflow-hidden border-b border-line">
+      <div class="absolute inset-0 dot-grid opacity-20" aria-hidden="true" />
+      <div class="relative page-container pt-16 pb-12 lg:pt-20 lg:pb-16 text-center">
+        <div class="inline-flex items-center gap-2 mb-5">
+          <span class="w-5 h-px bg-action/40" />
+          <span class="text-xs font-bold uppercase tracking-[0.25em] text-ink-muted">Blog</span>
+          <span class="w-5 h-px bg-action/40" />
+        </div>
+        <h1 class="font-display text-[1.85rem] sm:text-4xl lg:text-[3.5rem] font-black text-ink tracking-tight leading-tight uppercase">
           Derecho claro, sin rodeos
         </h1>
-        <p class="mt-4 max-w-2xl text-body text-ink-muted">
+        <p class="mt-4 max-w-2xl mx-auto text-sm sm:text-base text-ink-muted leading-relaxed">
           Guías cortas de SK Soluciones: fraude bancario, sucesiones y patrimonio para tomar decisiones con respaldo legal.
         </p>
       </div>

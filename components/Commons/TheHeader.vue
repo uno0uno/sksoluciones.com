@@ -9,6 +9,7 @@ const menuItems = [
   { label: 'Especialidades', to: '/#especialidades' },
   { label: 'Áreas de Práctica', to: '/#areas' },
   { label: 'Corporativo', to: '/#corporativo' },
+  { label: 'Blog', to: '/blog' },
   { label: 'Contacto', to: '/#contacto' },
 ];
 
