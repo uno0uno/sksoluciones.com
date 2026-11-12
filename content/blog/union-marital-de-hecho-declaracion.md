@@ -12,51 +12,51 @@ author: "Carlos Salamanca"
 
 # Unión marital de hecho en Colombia: declaración y sociedad patrimonial
 
-Si usted convive con su pareja sin casarse, la ley puede reconocer una **unión marital de hecho** y una **sociedad patrimonial**. Esta guía explica cuándo se presume, qué bienes entran y cómo se declara, con base en **Ley 54 de 1990 y jurisprudencia**.
+Si usted convive con su pareja sin estar casado, la ley puede reconocer una **unión marital de hecho** y una **sociedad patrimonial**. Esta guía explica cuándo se presume, qué bienes entran y cómo se declara, con base en la **Ley 54 de 1990 y la jurisprudencia de la Corte Constitucional**.
 
 ## ¿Cuándo hay unión marital y sociedad patrimonial?
 
-La **sociedad patrimonial se presume con 2 años de unión**. Aplica a parejas heterosexuales y del mismo sexo. Fuente: **Ley 54 art.2; C-075/2007**.
+La **sociedad patrimonial se presume con 2 años de unión**. Aplica tanto a parejas de distinto sexo como del mismo sexo. Fuente: **Ley 54 de 1990 art. 2; C-075 de 2007**.
 
-No es necesario un documento previo para que exista; la declaración es probatoria.
+La unión no necesita un documento previo para existir. La declaración sirve como prueba de lo que ya ocurrió.
 
 ## ¿Qué pasa si hay impedimento para casarse?
 
-Basta que la **sociedad conyugal anterior esté disuelta**. No es necesario haberla liquidado ni esperar un año. Fuente: **C-700/2013, C-193/2016**.
+Basta con que la **sociedad conyugal anterior esté disuelta**. No es necesario haberla liquidado ni esperar un año. Fuente: **C-700 de 2013 y C-193 de 2016**.
 
 ## ¿Qué bienes entran y cuáles no?
 
-*   **No entran:** bienes propios, heredados o donados antes o durante la unión.
-*   **Sí entran:** frutos, mayor valor y bienes adquiridos durante la unión con esfuerzo común. Fuente: **Ley 54 art.3**.
+* **No entran:** los bienes propios, heredados o donados, tanto antes como durante la unión.
+* **Sí entran:** los frutos, el mayor valor y los bienes adquiridos durante la unión con esfuerzo común. Fuente: **Ley 54 de 1990 art. 3**.
 
-Ejemplo: usted tenía un apartamento antes de convivir; ese bien no entra. El apartamento que compraron juntos durante la convivencia sí hace parte de la sociedad patrimonial.
+Ejemplo: usted tenía un apartamento antes de empezar a convivir. Ese bien no entra. El apartamento que compraron juntos durante la convivencia sí hace parte de la sociedad patrimonial.
 
 ## ¿Cómo se declara?
 
-Puede declararse:
+La unión puede declararse por las vías que la ley y los trámites notariales o judiciales permiten:
 
-1.  **Por escritura pública ante notaría**, si hay acuerdo entre las partes.
-2.  **Por conciliación** en centro autorizado.
-3.  **Por sentencia judicial** si no hay acuerdo.
+1. **Por escritura pública ante notaría**, si las dos partes están de acuerdo.
+2. **Por conciliación** en un centro autorizado.
+3. **Por sentencia judicial**, si no hay acuerdo.
 
-La declaración no crea la unión; la reconoce.
+La declaración no crea la unión: la reconoce.
 
 ## Plazo para pedir disolución y liquidación
 
-Usted tiene **1 año contado desde la separación definitiva, el matrimonio con un tercero o la muerte** para pedir disolución y liquidación de la sociedad patrimonial. Vencido ese año, prescribe. Fuente: **Ley 54 art.8**.
+Usted tiene **1 año, contado desde la separación definitiva, el matrimonio con un tercero o la muerte**, para pedir la disolución y liquidación de la sociedad patrimonial. Vencido ese año, el derecho prescribe. Fuente: **Ley 54 de 1990 art. 8**.
 
-## ¿Qué necesita para iniciar?
+## ¿Qué necesita para empezar?
 
-Indique por escrito: fecha de inicio de convivencia, si hubo sociedad conyugal previa y su estado, bienes adquiridos y si hay acuerdo. Con eso verificamos si se cumplen los 2 años y el plazo del año.
+Indique por escrito la fecha en que empezó la convivencia, si hubo sociedad conyugal anterior y su estado, los bienes adquiridos y si hay acuerdo con su pareja. Con eso verificamos si se cumplen los 2 años y si el plazo de 1 año sigue vigente.
 
 ## Preguntas frecuentes
 
-**¿Dos años continuos o pueden ser interrumpidos?** La presunción exige 2 años de convivencia permanente y singular. Interrupciones relevantes deben analizarse.
+**¿Los 2 años deben ser continuos?** La presunción exige una convivencia permanente y singular durante 2 años. Las interrupciones relevantes deben analizarse caso por caso.
 
-**¿Si solo convivimos 1 año hay derechos?** No se presume sociedad patrimonial, pero pueden existir otros derechos a probar.
+**¿Si solo convivimos 1 año tengo derechos?** No se presume la sociedad patrimonial, pero pueden existir otros derechos que se deben probar.
 
-**¿Necesito testigos?** Para declaración judicial sí; para notaría con acuerdo basta la manifestación de ambos.
+**¿Necesito testigos?** Depende de la vía. En una declaración judicial, sí; en una declaración con acuerdo, consulte primero el requisito que aplica en su caso.
 
 ---
 
-Envíe por escrito su tiempo de convivencia y bienes. Le indicamos si procede declaración notarial, conciliación o vía judicial.
+Envíenos por escrito su tiempo de convivencia y los bienes que tienen. Le decimos si procede declaración notarial, conciliación o vía judicial.

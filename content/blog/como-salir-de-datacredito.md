@@ -16,43 +16,44 @@ Si usted aparece reportado en Datacrédito, la pregunta no es si el reporte se b
 
 ## ¿En cuánto tiempo se borra si ya pagó?
 
-Si usted pagó la deuda que generó el reporte negativo, la permanencia es **el doble de la mora, máximo 4 años contados desde el pago**. Fuente: **Ley 1266 art. 15 mod. Ley 2157 art. 2**.
+Si usted pagó la deuda que generó el reporte negativo, la permanencia es **el doble de la mora, con un máximo de 4 años contados desde el pago**. Fuente: **Ley 1266 de 2008, modificada por la Ley 2157 de 2021**.
 
-Ejemplo: usted tuvo una mora de 8 meses y pagó el total. El reporte negativo permanece 16 meses desde el pago. Si la mora fue de 3 años, no permanece 6 años; el tope es 4 años.
+Ejemplo: usted tuvo una mora de 8 meses y pagó el total. El reporte negativo permanece 16 meses desde el pago. Si la mora fue de 3 años, el reporte no permanece 6 años: el tope es 4 años.
 
 ## ¿Y si nunca pagó?
 
-Si la deuda nunca se pagó, el reporte **caduca a los 8 años contados desde la mora**. Fuente: **Ley 1266/2157**. Cumplido el término, la central debe eliminar el dato negativo.
+Si la deuda nunca se pagó, el reporte **caduca a los 8 años contados desde la mora**. Fuente: **Ley 1266 de 2008, modificada por la Ley 2157 de 2021**. Cumplido ese término, la central debe eliminar el dato negativo.
 
 ## El aviso previo de 20 días
 
 Antes de reportarlo, la fuente debe **avisarle con 20 días calendario** que será reportado. Fuente: **Ley 1266 art. 12**.
 
 Si no le avisaron:
-*   **Si ya pagó:** retiro inmediato.
-*   **Si no ha pagado:** se retira, pero pueden volver a reportarlo avisando bien. No es salir sin pagar definitivo.
 
-## Borrón y cuenta nueva ya vencido
+* **Si ya pagó:** el retiro es inmediato.
+* **Si no ha pagado:** el reporte se retira, pero la fuente puede volver a reportarlo después de avisarle bien. No es salir sin pagar de forma definitiva.
+
+## Borrón y cuenta nueva ya venció
 
 El régimen de transición conocido como borrón y cuenta nueva **ya venció**. No lo presente como vigente.
 
 ## Cómo pedir el retiro
 
-1. Radique petición escrita ante la central y la fuente invocando **Ley 1266 art. 16 y Ley 2157**.
-2. La central resuelve en **15 días hábiles prorrogables por 8 días**. Si no responde, opera **silencio positivo**.
+1. Radique una petición escrita ante la central y ante la fuente, citando la Ley 1266 y la Ley 2157.
+2. La central resuelve en **15 días hábiles, prorrogables por 8 días**. Si no responde, opera el **silencio positivo**.
 
 **Modelo breve:**
 
-> Yo, [nombre], identificado con [cédula], solicito eliminación del reporte por obligación [número] con [entidad], conforme a Ley 1266 art. 15 mod. Ley 2157. [Pagué el [fecha], mora [meses] / No recibí aviso 20 días art.12]. Anexo prueba. Notificaciones: [correo].
+> Yo, [nombre], identificado con cédula [número], solicito la eliminación del reporte de la obligación [número] con [entidad], conforme a la Ley 1266 y la Ley 2157. [Pagué el [fecha], con una mora de [meses] / No recibí el aviso previo de 20 días]. Anexo pruebas. Notificaciones: [correo].
 
 ## Preguntas frecuentes
 
-**¿Si pago hoy salgo mañana?** No. Aplica doble de la mora máx 4 años.
+**¿Si pago hoy, salgo mañana?** No. Aplica el doble de la mora, con un máximo de 4 años.
 
-**¿Puedo salir sin pagar?** Solo por caducidad 8 años o falta de aviso 20 días (retiro temporal).
+**¿Puedo salir sin pagar?** Solo por caducidad de 8 años o por falta de aviso de 20 días, y en este último caso el retiro puede ser temporal.
 
-**¿Cuánto dura un reporte?** Pagado hasta 4 años. Nunca pagado hasta 8 años.
+**¿Cuánto dura un reporte?** Si se pagó, hasta 4 años. Si nunca se pagó, hasta 8 años.
 
 ---
 
-¿Necesita revisión? Envíe fecha de mora, fecha de pago y si recibió aviso de 20 días. Le indicamos si ya debe retirarse.
+¿Necesita revisión? Envíenos la fecha de la mora, la fecha de pago y si recibió el aviso de 20 días. Le decimos si ya debe retirarse.

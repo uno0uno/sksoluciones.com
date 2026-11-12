@@ -12,55 +12,55 @@ author: "Carlos Salamanca"
 
 # Ley 2573 de 2026: si es fraude no se paga y cómo reclamar
 
-Si usted fue víctima de suplantación de identidad y le cobran un crédito o producto que no solicitó, la **Ley 2573 de 2026** establece que **si es fraude no se paga** bajo las reglas que explica esta guía. Todo lo que sigue está verificado contra el texto oficial (Régimen Legal de Bogotá).
+Si usted fue víctima de suplantación de identidad y le cobran un crédito o producto que no solicitó, la **Ley 2573 de 2026** establece que **si es fraude no se paga**, bajo las reglas que explica esta guía. Lo que sigue se basa en el texto oficial de la ley.
 
 ## ¿Desde cuándo rige?
 
-La Ley 2573 rige **desde el 19 de noviembre de 2026**. Excepción: **Art. 5 parágrafo 1 y 2 rigen desde el 19 de mayo de 2026** y ya están vigentes. Fuente: **Art. 13**. Esta es la base para reclamar hoy dinero sacado con fallas del banco.
+La Ley 2573 rige **desde el 19 de noviembre de 2026**. Hay una excepción: **el Art. 5 parágrafos 1 y 2 rigen desde el 19 de mayo de 2026** y ya están vigentes. Fuente: **Art. 13**. Por eso, si el dinero salió de su cuenta por fallas del banco, ya puede reclamar con base en esa norma.
 
 ## ¿Qué es suplantación según la ley?
 
-Definiciones en **Art. 3 num. 5 y 6** y tipos en **Art. 4**. No se trata solo de un crédito a su nombre; incluye uso no autorizado de su identidad para operaciones financieras.
+Las definiciones están en el **Art. 3 numerales 5 y 6**, y los tipos de suplantación en el **Art. 4**. No se trata solo de un crédito a su nombre: incluye el uso no autorizado de su identidad para operaciones financieras.
 
-## Si sacaron dinero de su cuenta con fallas del banco
+## Si sacaron dinero de su cuenta por fallas del banco
 
-Si se verifica incumplimiento de protocolos de seguridad y usted pidió corrección como víctima, la entidad **debe devolver el dinero o eliminar la deuda**. No puede congelar el saldo ni esperar autorización de la cuenta receptora. **Ya vigente desde el 19 de mayo de 2026**. Fuente: **Art. 5 par. 2**.
+Si se verifica que la entidad incumplió sus protocolos de seguridad, y usted pidió la corrección como víctima, la entidad **debe devolver el dinero o eliminar la deuda**. No puede congelar el saldo ni esperar la autorización de la cuenta receptora. Esta regla **ya está vigente desde el 19 de mayo de 2026**. Fuente: **Art. 5 par. 2**.
 
-Ejemplo: usted recibió una llamada que suplantó al banco y a las 09:51 dictó el código que le llegó. Ese relato —contar los hechos, no calificarse— es el que debe presentar.
+Ejemplo: usted recibe una llamada que suplanta al banco y, a las 09:51, dicta el código que le llegó. Al presentar el caso, cuente los hechos sin calificarse. Ese relato es el que debe presentar.
 
 ## Si abrieron un crédito o producto a su nombre
 
-Al ser informada, la entidad **suspende de inmediato** el cobro con intereses y gastos. Si la justicia confirma la suplantación, hay **exoneración del cobro y del reporte**. Fuente: **Arts. 8 y 9**.
+Cuando la entidad es informada, **debe suspender de inmediato** el cobro con intereses y gastos. Si la justicia confirma la suplantación, hay **exoneración del cobro y del reporte**. Fuente: **Arts. 8 y 9**.
 
-Usted debe presentar **denuncia ante Fiscalía por falsedad personal y conexos dentro de los 20 días hábiles** siguientes a que la entidad le comunica el término. Si no la aporta, la entidad puede reanudar el cobro. Fuente: **Art. 8 par. 1**.
+Usted debe presentar **denuncia ante la Fiscalía por falsedad personal y delitos conexos dentro de los 20 días hábiles** siguientes a que la entidad le comunique el término. Si no la aporta, la entidad puede reanudar el cobro. Fuente: **Art. 8 par. 1**.
 
 ## Plazos que debe cumplir la entidad
 
-*   **10 días hábiles** para responder desde que usted radica la reclamación. Fuente: **Art. 5 num. 4**.
-*   **10 obligaciones** del Art. 5. El num. 8 es reportar a la **DIAN**. No existe obligación de "reportar a SIC y Superfinanciera el cumplimiento de protocolos".
-*   Si la entidad encuentra elementos de suplantación, la libera de denunciar. **No puede decidir que no hubo suplantación**; eso lo decide el juez. Fuente: **Art. 10**.
+* **10 días hábiles** para responder desde que usted radica la reclamación. Fuente: **Art. 5 num. 4**.
+* La entidad tiene **10 obligaciones** según el Art. 5. Entre ellas, el numeral 8 es el reporte a la **DIAN**.
+* Si la entidad encuentra elementos de suplantación, queda liberada de la denuncia. **No puede decidir que no hubo suplantación**: eso lo decide el juez. Fuente: **Art. 10**.
 
 ## ¿Qué pasa con Datacrédito?
 
-La fuente debe cotejar ante la central en **10 días hábiles**. La leyenda **"Víctima de Falsedad Personal" no es reporte negativo ni baja puntaje**. Las peticiones a centrales se resuelven en **15 días + 8 de prórroga** y sin respuesta opera **silencio positivo**. Fuente: **Art. 7**.
+La fuente debe cotejar la información con la central en **10 días hábiles**. La leyenda **"Víctima de Falsedad Personal" no es un reporte negativo ni baja el puntaje**. Las peticiones a las centrales se resuelven en **15 días, prorrogables por 8**, y si no hay respuesta opera el **silencio positivo**. Fuente: **Art. 7**.
 
 ## Ruta SK para fraude bancario
 
-1. Bloqueo inmediato del producto.
-2. Denuncia ante Fiscalía.
-3. Reclamación escrita al banco contando los hechos (no se califique como "entregué clave voluntariamente").
-4. Si niegan o no responden, demanda ante **Superintendencia Financiera**.
+1. Bloquee el producto de inmediato.
+2. Denuncie ante la Fiscalía.
+3. Presente la reclamación escrita al banco, contando los hechos sin calificarse.
+4. Si la entidad niega la reclamación o no responde, presente demanda ante la **Superintendencia Financiera**.
 
-La **queja ante SFC** no es escalón ni obliga al banco. Si se menciona, debe aclararse.
+La **queja ante la Superfinanciera** no obliga al banco ni es un paso previo obligatorio. Si la menciona, aclare eso.
 
 ## Preguntas frecuentes
 
-**¿La ley me sirve si el fraude fue en mayo de 2026?** Sí, para dinero sacado con fallas del banco, el Art. 5 par. 2 ya rige desde el 19 de mayo de 2026.
+**¿La ley me sirve si el fraude fue en mayo de 2026?** Sí, para el dinero que salió de su cuenta por fallas del banco. El Art. 5 par. 2 rige desde el 19 de mayo de 2026.
 
 **¿Debo denunciar siempre?** Si la entidad no encuentra elementos de suplantación, usted debe denunciar en 20 días hábiles. Si los encuentra, la norma la libera de ese requisito.
 
-**¿Cuánto se demora el banco en responder?** 10 días hábiles.
+**¿Cuánto tarda el banco en responder?** La ley le da 10 días hábiles para responder.
 
 ---
 
-Envíe por escrito cómo ocurrió la suplantación, qué producto le cobran y qué le respondió el banco. Le indicamos si aplica la suspensión inmediata.
+Envíenos por escrito cómo ocurrió la suplantación, qué producto le cobran y qué le respondió el banco. Le decimos si aplica la suspensión inmediata.
