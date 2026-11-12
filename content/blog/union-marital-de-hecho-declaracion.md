@@ -14,8 +14,6 @@ author: "Carlos Salamanca"
 
 Si usted convive con su pareja sin casarse, la ley puede reconocer una **unión marital de hecho** y una **sociedad patrimonial**. Esta guía explica cuándo se presume, qué bienes entran y cómo se declara, con base en **Ley 54 de 1990 y jurisprudencia**.
 
-> **Recuadro SK:** Cuéntenos su caso por escrito. Lo revisamos y le decimos con honestidad si tiene camino.
-
 ## ¿Cuándo hay unión marital y sociedad patrimonial?
 
 La **sociedad patrimonial se presume con 2 años de unión**. Aplica a parejas heterosexuales y del mismo sexo. Fuente: **Ley 54 art.2; C-075/2007**.

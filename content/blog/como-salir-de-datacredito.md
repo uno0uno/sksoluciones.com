@@ -14,8 +14,6 @@ author: "Carlos Salamanca"
 
 Si usted aparece reportado en Datacrédito, la pregunta no es si el reporte se borra, sino **cuándo y bajo qué regla**. La ley no permite reportes indefinidos. Esta guía explica los plazos vigentes con base en la **Ley 1266 de 2008 modificada por la Ley 2157 de 2021**.
 
-> **Recuadro SK:** Cuéntenos su caso por escrito. Lo revisamos y le decimos con honestidad si tiene camino.
-
 ## ¿En cuánto tiempo se borra si ya pagó?
 
 Si usted pagó la deuda que generó el reporte negativo, la permanencia es **el doble de la mora, máximo 4 años contados desde el pago**. Fuente: **Ley 1266 art. 15 mod. Ley 2157 art. 2**.

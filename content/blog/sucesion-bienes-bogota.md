@@ -14,8 +14,6 @@ author: "Carlos Salamanca"
 
 Si usted debe repartir bienes por fallecimiento en Bogotá, la primera decisión es **si la sucesión va por notaría o por juzgado**. Esta guía explica las reglas vigentes con base en **Decreto 902 de 1988 mod. 1729/1989 y CGP**.
 
-> **Recuadro SK:** Cuéntenos su caso por escrito. Lo revisamos y le decimos con honestidad si tiene camino.
-
 ## ¿Cuándo puede ser por notaría?
 
 Por notaría solo si **todos los herederos son plenamente capaces, están de acuerdo y actúan con abogado**. Sin abogado solo es posible en **mínima cuantía** (aprox. 15 SMLMV, según notaría). Fuente: **D.902 art.1 mod D.1729**.

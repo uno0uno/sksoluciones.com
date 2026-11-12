@@ -14,8 +14,6 @@ author: "Carlos Salamanca"
 
 Si usted fue víctima de suplantación de identidad y le cobran un crédito o producto que no solicitó, la **Ley 2573 de 2026** establece que **si es fraude no se paga** bajo las reglas que explica esta guía. Todo lo que sigue está verificado contra el texto oficial (Régimen Legal de Bogotá).
 
-> **Recuadro SK:** Cuéntenos su caso por escrito. Lo revisamos y le decimos con honestidad si tiene camino.
-
 ## ¿Desde cuándo rige?
 
 La Ley 2573 rige **desde el 19 de noviembre de 2026**. Excepción: **Art. 5 parágrafo 1 y 2 rigen desde el 19 de mayo de 2026** y ya están vigentes. Fuente: **Art. 13**. Esta es la base para reclamar hoy dinero sacado con fallas del banco.

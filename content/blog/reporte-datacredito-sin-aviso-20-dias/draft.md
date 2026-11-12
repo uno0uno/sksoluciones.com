@@ -37,8 +37,6 @@ Caso ilustrativo: los datos son ficticios. Usted tenía una mora de 3 meses con 
 
 Casos como este se resuelven con una regla precisa: **Ley 1266 de 2008 art.12** exige aviso de 20 días calendario antes del reporte. Sin ese aviso, usted puede pedir retiro. Esta guía explica cuándo aplica, qué diferencia hay si pagó o no, y cómo pedirlo por escrito sin prometer resultados.
 
-> **Recuadro SK:** Cuéntenos su caso por escrito. Lo revisamos y le decimos con honestidad si tiene camino.
-
 En este artículo encontrarás:
 - Qué exige el aviso de 20 días y a quién obliga
 - Qué pasa si no le avisaron y la deuda está pagada o no pagada
