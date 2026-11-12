@@ -62,7 +62,7 @@ const areas = [
           class="border border-line bg-surface rounded-xl p-5 hover:border-action/50 hover:bg-surface-elevated hover:shadow-sm transition-all duration-200 group"
         >
           <div class="flex items-center justify-between pb-3 mb-3 border-b border-line/60">
-            <span class="font-mono text-xs font-semibold text-action">§ {{ area.marker }}</span>
+            <span class="font-mono text-xs font-semibold text-action">{{ area.marker }}</span>
             <component :is="area.icon" class="w-4 h-4 text-ink-muted group-hover:text-action transition-colors" />
           </div>
 

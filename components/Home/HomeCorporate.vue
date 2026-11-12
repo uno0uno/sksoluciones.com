@@ -24,31 +24,43 @@ const corporateServices = [
 </script>
 
 <template>
-  <section id="corporativo" class="bg-ink text-on-ink py-16 sm:py-24 border-b border-on-ink/10 relative overflow-hidden">
+  <section id="corporativo" class="bg-ink text-on-ink py-10 sm:py-14 border-b border-on-ink/10 relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-start lg:items-center">
         
         <!-- Left: Concise Corporate Statement -->
-        <div class="lg:col-span-5">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-on-ink/15 bg-on-ink/5 mb-5">
+        <div class="lg:col-span-5 flex flex-col">
+          <div class="self-start inline-flex items-center gap-2 px-3 py-1 rounded-full border border-on-ink/15 bg-on-ink/5 mb-4">
             <span class="w-1.5 h-1.5 rounded-full bg-action"></span>
             <span class="text-[11px] font-semibold uppercase tracking-[0.2em] text-action">
               Empresas & Negocios
             </span>
           </div>
 
-          <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-light text-on-ink tracking-tight leading-tight">
+          <h2 class="font-display text-3xl sm:text-4xl lg:text-4xl font-light text-on-ink tracking-tight leading-tight">
             Blindaje legal para
             <span class="italic font-normal text-on-ink">proteger el valor</span>
             de su compañía.
           </h2>
 
-          <p class="mt-4 text-sm sm:text-base text-on-ink-muted leading-relaxed">
+          <p class="mt-3 text-sm text-on-ink-muted leading-relaxed">
             Acompañamiento preventivo en contratación, gobierno corporativo y propiedad industrial para mitigar contingencias operativas.
           </p>
 
-          <div class="mt-7">
+          <!-- Imagen editorial única (compacta para balance, no repetida) -->
+          <div class="mt-4 rounded-xl overflow-hidden border border-on-ink/15 shadow-sm">
+            <img
+              src="/images/home/blindaje-corporativo.jpg"
+              alt="Sala de juntas corporativa en Bogotá con vista a los cerros orientales"
+              class="w-full h-44 lg:h-[180px] object-cover"
+              width="700"
+              height="260"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="mt-4">
             <NuxtLink
               to="/landing/asesoria-inicial"
               class="inline-flex items-center gap-2 px-6 py-3 bg-action text-white font-semibold rounded-lg hover:bg-action-hover transition-colors text-sm shadow-sm"
@@ -59,8 +71,8 @@ const corporateServices = [
           </div>
         </div>
 
-        <!-- Right: 3 Quick Corporate Capsules with Icons -->
-        <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <!-- Right: 3 cápsulas apiladas verticalmente -->
+        <div class="lg:col-span-7 flex flex-col gap-3 lg:self-center">
           <div
             v-for="service in corporateServices"
             :key="service.index"

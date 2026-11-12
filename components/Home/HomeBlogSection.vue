@@ -48,8 +48,8 @@ defineProps<{
         <div class="lg:col-span-5">
           <div class="relative rounded-2xl overflow-hidden border border-line bg-surface-elevated aspect-[4/3] shadow-md group">
             <img
-              :src="sectionImage || '/images/blog/ley-2573-si-es-fraude-no-se-paga-cover-1200x630.webp'"
-              alt="Criterio jurídico y análisis legal - SK Soluciones"
+              :src="sectionImage || '/images/home/blog-criterio.jpg'"
+              alt="Biblioteca jurídica y jurisprudencia colombiana - Criterio SK"
               class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
               width="700"
               height="500"
