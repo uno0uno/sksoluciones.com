@@ -49,7 +49,7 @@ Fuente: **ET art307**.
 
 ## ¿Cuánto vale una sucesión en Bogotá?
 
-No publicamos valores ni porcentajes de honorarios (regla 7 AGENTS.md). El costo depende de si es notaría o juzgado, cuantía y si hay acuerdo. El primer contacto es por escrito para evaluar viabilidad.
+No publicamos valores ni porcentajes de honorarios. El costo depende de si es notaría o juzgado, cuantía y si hay acuerdo. El primer contacto es por escrito para evaluar viabilidad.
 
 ---
 

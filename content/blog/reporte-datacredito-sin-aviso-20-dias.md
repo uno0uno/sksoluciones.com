@@ -49,7 +49,7 @@ Tres detalles que la mayoría de los SERP omiten: **18 meses máximo** para repo
 <!-- type: body-explanation -->
 ## Reporte sin aviso: pagado vs no pagado
 
-La consecuencia no es la misma. **AGENTS.md ficha Ley 1266/2157**:
+La consecuencia depende de si la obligación ya está pagada:
 
 - **Deuda pagada y sin aviso:** retiro inmediato y definitivo. No deben mantener el dato negativo. Usted anexa paz y salvo y pide retiro por falta de aviso art.12.
 - **Deuda no pagada y sin aviso:** se retira, pero la fuente **puede volver a reportar** tras avisarle bien los 20 días. No es "nulo" ni le permite salir sin pagar para siempre. Es retiro temporal hasta que cumplan el procedimiento.
@@ -99,7 +99,7 @@ Hágalo por escrito y radicado simultáneo a la fuente y a la central (Datacréd
 
 Radique por formulario web de la entidad y de Datacrédito, o en centro de experiencia presencial, o con carta autenticada. Guarde radicado con fecha y hora. No pague a tramitadores que prometen borrado en 7 días por fuera de la ley.
 
-La central y la fuente resuelven en **15 días hábiles prorrogables por 8 días hábiles**. Si no responden, opera **silencio positivo** en habeas data y usted puede exigir el borrado. Fuente: Ley 1266 y ficha AGENTS.md.
+La central y la fuente resuelven en **15 días hábiles prorrogables por 8 días hábiles**. Si no responden, opera **silencio positivo** en habeas data y usted puede exigir el borrado. Fuente: Ley 1266 art. 12.
 
 ---
 
