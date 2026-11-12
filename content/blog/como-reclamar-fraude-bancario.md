@@ -21,7 +21,7 @@ author: Carlos Salamanca
 
 <!-- type: intro -->
 
-Caso ilustrativo: los datos son ficticios. Usted recibe una llamada que suplanta a un banco para validar una compra que no hizo, ingresa a un enlace que simula la sucursal virtual y minutos después ve un débito por PSE a una cuenta que no reconoce. Al reclamar, le responden que usted entregó los datos voluntariamente.
+Usted recibe una llamada que suplanta a un banco para validar una compra que no hizo, ingresa a un enlace que simula la sucursal virtual y minutos después ve un débito por PSE a una cuenta que no reconoce. Al reclamar, le responden que usted entregó los datos voluntariamente.
 
 Casos como este se repiten con el mismo libreto en Medellín, Cali, Bucaramanga y Yopal: el banco dice "fue culpa del cliente"y la víctima queda con el extracto en la mano sin saber por dónde empezar. No es un problema de una sola entidad. Bancolombia advierte hoy sobre vishing y smishing, Davivienda y Nequi alertan sobre mensajes falsos, y el SIM swapping deja el celular sin señal y la cuenta vacía en minutos.
 

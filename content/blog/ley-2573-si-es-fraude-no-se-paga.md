@@ -26,7 +26,7 @@ Definiciones en **Art. 3 num. 5 y 6** y tipos en **Art. 4**. No se trata solo de
 
 Si se verifica incumplimiento de protocolos de seguridad y usted pidió corrección como víctima, la entidad **debe devolver el dinero o eliminar la deuda**. No puede congelar el saldo ni esperar autorización de la cuenta receptora. **Ya vigente desde el 19 de mayo de 2026**. Fuente: **Art. 5 par. 2**.
 
-Caso ilustrativo: los datos son ficticios. Usted recibió una llamada que suplantó al banco y a las 09:51 dictó el código que le llegó. Ese relato —contar los hechos, no calificarse— es el que debe presentar.
+Usted recibió una llamada que suplantó al banco y a las 09:51 dictó el código que le llegó. Ese relato —contar los hechos, no calificarse— es el que debe presentar.
 
 ## Si abrieron un crédito o producto a su nombre
 

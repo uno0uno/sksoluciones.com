@@ -23,7 +23,7 @@ description: "Cómo declarar la unión marital de hecho en Colombia por notaría
 
 <!-- type: intro -->
 
-Caso ilustrativo: los datos son ficticios. Una pareja con convivencia prolongada
+Una pareja con convivencia prolongada
 
 El error es creer que convivir reparte. La ley no reparte por convivir, reparte lo que se prueba que se construyó en pareja y que se declara a tiempo. 
 En este artículo encontrarás:

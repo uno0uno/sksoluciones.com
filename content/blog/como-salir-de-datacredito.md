@@ -18,7 +18,7 @@ Si usted aparece reportado en Datacrédito, la pregunta no es si el reporte se b
 
 Si usted pagó la deuda que generó el reporte negativo, la permanencia es **el doble de la mora, máximo 4 años contados desde el pago**. Fuente: **Ley 1266 art. 15 mod. Ley 2157 art. 2**.
 
-Caso ilustrativo: los datos son ficticios. Usted tuvo una mora de 8 meses y pagó el total. El reporte negativo permanece 16 meses desde el pago. Si la mora fue de 3 años, no permanece 6 años; el tope es 4 años.
+Usted tuvo una mora de 8 meses y pagó el total. El reporte negativo permanece 16 meses desde el pago. Si la mora fue de 3 años, no permanece 6 años; el tope es 4 años.
 
 ## ¿Y si nunca pagó?
 

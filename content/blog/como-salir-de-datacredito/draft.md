@@ -30,7 +30,7 @@ sources_used:
 
 <!-- type: intro -->
 
-Caso ilustrativo: los datos son ficticios. Usted se atrasó 4 meses con una tarjeta, pagó todo y meses después sigue apareciendo como "cliente con mora" al pedir un crédito. Le dijeron que "eso dura 4 años siempre". No es así.
+Usted se atrasó 4 meses con una tarjeta, pagó todo y meses después sigue apareciendo como "cliente con mora" al pedir un crédito. Le dijeron que "eso dura 4 años siempre". No es así.
 
 Casos como este se repiten porque el reporte no se borra al pagar. La Ley 1266 de 2008 y la reforma 2157 de 2021 (borrón y cuenta nueva) fijan reglas de permanencia y una sola forma de salir: el tiempo. Entender ese reloj evita que pagues dos veces: una al banco y otra esperando de más en Datacrédito.
 

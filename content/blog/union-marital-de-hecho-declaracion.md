@@ -29,7 +29,7 @@ Basta que la **sociedad conyugal anterior esté disuelta**. No es necesario habe
 *   **No entran:** bienes propios, heredados o donados antes o durante la unión.
 *   **Sí entran:** frutos, mayor valor y bienes adquiridos durante la unión con esfuerzo común. Fuente: **Ley 54 art.3**.
 
-Caso ilustrativo: los datos son ficticios. Usted tenía un apartamento antes de convivir; ese bien no entra. El apartamento que compraron juntos durante la convivencia sí hace parte de la sociedad patrimonial.
+Usted tenía un apartamento antes de convivir; ese bien no entra. El apartamento que compraron juntos durante la convivencia sí hace parte de la sociedad patrimonial.
 
 ## ¿Cómo se declara?
 
