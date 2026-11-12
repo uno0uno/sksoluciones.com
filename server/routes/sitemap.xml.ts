@@ -18,7 +18,11 @@ function blogEntriesFromDisk() {
           for (const line of match[1].split(/\r?\n/)) {
             const idx = line.indexOf(':')
             if (idx === -1) continue
-            meta[line.slice(0, idx).trim()] = line.slice(idx + 1).trim()
+            let value = line.slice(idx + 1).trim()
+            if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+              value = value.slice(1, -1)
+            }
+            meta[line.slice(0, idx).trim()] = value
           }
         }
         const slug = meta.slug || name.replace(/\.md$/, '')

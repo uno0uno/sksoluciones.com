@@ -1,13 +1,13 @@
 ---
-title: Unión marital de hecho en Colombia: declaración y sociedad patrimonial
-description: Cómo declarar unión marital de hecho en Colombia: 2 años para sociedad patrimonial, qué bienes entran y plazo de 1 año para liquidar tras separación. Ley 54 de 1990.
-date: 2026-10-14
-slug: union-marital-de-hecho-declaracion
-cover: /images/blog/union-marital-de-hecho-declaracion-cover-1200x630.webp
-thumbnail: /images/blog/union-marital-de-hecho-declaracion-thumb-600x315.webp
-coverAlt: Pareja firmando declaración de unión marital de hecho ante notario con sociedad patrimonial
-tags: Unión Marital, Ley 54, Sociedad Patrimonial, Familia, Declaración
-author: Carlos Salamanca
+title: "Unión marital de hecho: declaración y sociedad patrimonial"
+description: "Unión marital en Colombia: 2 años para sociedad patrimonial, qué bienes entran y plazo 1 año para liquidar tras separación. Ley 54 de 1990."
+date: "2026-10-14"
+slug: "union-marital-de-hecho-declaracion"
+cover: "/images/blog/union-marital-de-hecho-declaracion-cover-1200x630.webp"
+thumbnail: "/images/blog/union-marital-de-hecho-declaracion-thumb-600x315.webp"
+coverAlt: "Pareja firmando declaración de unión marital de hecho ante notario con sociedad patrimonial"
+tags: "Unión Marital, Ley 54, Sociedad Patrimonial, Familia, Declaración"
+author: "Carlos Salamanca"
 ---
 
 # Unión marital de hecho en Colombia: declaración y sociedad patrimonial
