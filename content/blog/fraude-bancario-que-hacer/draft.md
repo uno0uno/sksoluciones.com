@@ -23,7 +23,7 @@ description: "Qué hacer en las primeras 24 horas si te vaciaron la cuenta por v
 
 <!-- type: intro -->
 
-Usted recibe un SMS que simula ser de su banco con una transferencia pendiente y un enlace. Al ingresar, ve un débito por PSE que no autorizó. Casos como este se repiten con el mismo libreto: el mensaje o la llamada que parece del banco, el link que pide datos y el débito que no reconoces. No es un problema de una sola entidad y no es solo Bancolombia.
+Ejemplo: usted recibe un SMS que simula ser de su banco con una transferencia pendiente y un enlace. Al ingresar, ve un débito por PSE que no autorizó. Casos como este se repiten con el mismo libreto: el mensaje o la llamada que parece del banco, el link que pide datos y el débito que no reconoces. No es un problema de una sola entidad y no es solo Bancolombia.
 
 En este artículo encontrarás:
 - Qué modalidad te pasó (vishing, smishing, phishing) y por qué importa para el reclamo

@@ -22,7 +22,7 @@ author: "Carlos Salamanca"
 
 <!-- type: intro -->
 
-Usted tenía una mora de 3 meses con un comercio, pagó, y al solicitar un crédito le dicen que sigue reportado en Datacrédito. Nunca recibió carta ni mensaje con aviso previo. Le dicen que "así funciona".
+Ejemplo: usted tenía una mora de 3 meses con un comercio, pagó, y al solicitar un crédito le dicen que sigue reportado en Datacrédito. Nunca recibió carta ni mensaje con aviso previo. Le dicen que "así funciona".
 
 Casos como este se resuelven con una regla precisa: **Ley 1266 de 2008 art.12** exige aviso de 20 días calendario antes del reporte. Sin ese aviso, usted puede pedir retiro. Esta guía explica cuándo aplica, qué diferencia hay si pagó o no, y cómo pedirlo por escrito sin prometer resultados.
 

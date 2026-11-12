@@ -24,7 +24,7 @@ description: "Tu hermano no quiere firmar la sucesión: qué pasa, cómo desbloq
 
 <!-- type: intro -->
 
-Un grupo de herederos no logra vender porque uno de ellos habita un inmueble de la sucesión y no firma. El resto lleva meses sin poder disponer de los bienes.
+Ejemplo: un grupo de herederos no logra vender porque uno de ellos habita un inmueble de la sucesión y no firma. El resto lleva meses sin poder disponer de los bienes.
 
 Historias como la de Gloria son la primera causa de consulta por sucesiones en SK. La frase que más llega es "un hermano no quiere firmar". La respuesta es corta: sin firma no hay notaría, pero sí hay juzgado. Y el juez no te va a pedir que convenzas a tu hermano, te va a pedir papeles.
 

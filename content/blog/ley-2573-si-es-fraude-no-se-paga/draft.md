@@ -30,7 +30,7 @@ sources_used:
 
 <!-- type: intro -->
 
-Usted recibe una llamada que suplanta a su banco, le piden validar su identidad en un enlace y minutos después ve un débito por PSE a una cuenta que no reconoce. Al reclamar, el banco responde que usted entregó los datos voluntariamente.
+Ejemplo: usted recibe una llamada que suplanta a su banco, le piden validar su identidad en un enlace y minutos después ve un débito por PSE a una cuenta que no reconoce. Al reclamar, el banco responde que usted entregó los datos voluntariamente.
 
 Casos como este se repiten a diario en Bogotá, Medellín, Cali y Yopal. Hasta ahora la discusión era la misma: el banco decía "fue culpa del cliente" y la víctima tenía que pelear meses para que le creyeran. La Ley 2573 cambia esa lógica.
 
