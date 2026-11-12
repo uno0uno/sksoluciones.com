@@ -39,7 +39,11 @@ function parseFrontmatter(raw: string): { meta: BlogPostMeta; body: string } {
     const idx = line.indexOf(':')
     if (idx === -1) continue
     const key = line.slice(0, idx).trim()
-    const value = line.slice(idx + 1).trim()
+    let value = line.slice(idx + 1).trim()
+    // strip surrounding quotes like "foo" or 'foo' — fixes frontmatter with quotes causing slug 404
+    if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+      value = value.slice(1, -1)
+    }
     meta[key] = value
   }
 

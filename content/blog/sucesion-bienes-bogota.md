@@ -1,13 +1,13 @@
 ---
-title: "Sucesión de bienes en Bogotá 2026: notaría o juzgado y costos"
-description: "Cómo hacer sucesión de bienes en Bogotá: cuándo va por notaría con acuerdo y abogado, cuándo por juzgado, quién puede pedir apertura y ganancia ocasional 15% art307."
-date: "2026-10-14"
-slug: "sucesion-bienes-bogota"
-cover: "/images/blog/sucesion-bienes-bogota-cover-1200x630.webp"
-thumbnail: "/images/blog/sucesion-bienes-bogota-thumb-600x315.webp"
-coverAlt: "Abogada revisando escritura de sucesión de bienes en notaría de Bogotá con herederos"
-tags: "Sucesión, Herencia, Notaría, Ganancia Ocasional, Bogotá"
-author: "Carlos Salamanca"
+title: Sucesión de bienes en Bogotá 2026: notaría o juzgado y costos
+description: Cómo hacer sucesión de bienes en Bogotá: cuándo va por notaría con acuerdo y abogado, cuándo por juzgado, quién puede pedir apertura y ganancia ocasional 15% art307.
+date: 2026-10-14
+slug: sucesion-bienes-bogota
+cover: /images/blog/sucesion-bienes-bogota-cover-1200x630.webp
+thumbnail: /images/blog/sucesion-bienes-bogota-thumb-600x315.webp
+coverAlt: Abogada revisando escritura de sucesión de bienes en notaría de Bogotá con herederos
+tags: Sucesión, Herencia, Notaría, Ganancia Ocasional, Bogotá
+author: Carlos Salamanca
 ---
 
 # Sucesión de bienes en Bogotá 2026: notaría o juzgado y costos

@@ -1,13 +1,13 @@
 ---
-title: "Cómo salir de Datacrédito en Colombia 2026: plazos reales"
-description: "Cuándo se borra el reporte en Datacrédito: 20 días de aviso, doble de la mora máx 4 años si pagó, 8 años si nunca pagó y silencio positivo 15+8 días. Guía con modelo de petición."
-date: "2026-10-14"
-slug: "como-salir-de-datacredito"
-cover: "/images/blog/como-salir-de-datacredito-cover-1200x630.webp"
-thumbnail: "/images/blog/como-salir-de-datacredito-thumb-600x315.webp"
-coverAlt: "Persona revisando reporte de Datacrédito en computador para verificar aviso previo de 20 días"
-tags: "Datacrédito, Ley 1266, Ley 2157, Centrales de Riesgo, Habeas Data"
-author: "Carlos Salamanca"
+title: Cómo salir de Datacrédito en Colombia 2026: plazos reales
+description: Cuándo se borra el reporte en Datacrédito: 20 días de aviso, doble de la mora máx 4 años si pagó, 8 años si nunca pagó y silencio positivo 15+8 días. Guía con modelo de petición.
+date: 2026-10-14
+slug: como-salir-de-datacredito
+cover: /images/blog/como-salir-de-datacredito-cover-1200x630.webp
+thumbnail: /images/blog/como-salir-de-datacredito-thumb-600x315.webp
+coverAlt: Persona revisando reporte de Datacrédito en computador para verificar aviso previo de 20 días
+tags: Datacrédito, Ley 1266, Ley 2157, Centrales de Riesgo, Habeas Data
+author: Carlos Salamanca
 ---
 
 # Cómo salir de Datacrédito en Colombia 2026: plazos reales

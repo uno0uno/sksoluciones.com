@@ -1,13 +1,13 @@
 ---
-title: "Ley 2573 de 2026: si es fraude no se paga y cómo reclamar"
-description: "Qué dice la Ley 2573 de 2026 cuando hay suplantación: suspensión inmediata de cobro, 10 días de respuesta y denuncia 20 días ante Fiscalía. Ruta SK paso a paso."
-date: "2026-10-14"
-slug: "ley-2573-si-es-fraude-no-se-paga"
-cover: "/images/blog/ley-2573-si-es-fraude-no-se-paga-cover-1200x630.webp"
-thumbnail: "/images/blog/ley-2573-si-es-fraude-no-se-paga-thumb-600x315.webp"
-coverAlt: "Documento de la Ley 2573 de 2026 sobre suplantación con calendario de 10 y 20 días hábiles"
-tags: "Ley 2573, Suplantación, Fraude Bancario, Datacrédito, SFC"
-author: "Carlos Salamanca"
+title: Ley 2573 de 2026: si es fraude no se paga y cómo reclamar
+description: Qué dice la Ley 2573 de 2026 cuando hay suplantación: suspensión inmediata de cobro, 10 días de respuesta y denuncia 20 días ante Fiscalía. Ruta SK paso a paso.
+date: 2026-10-14
+slug: ley-2573-si-es-fraude-no-se-paga
+cover: /images/blog/ley-2573-si-es-fraude-no-se-paga-cover-1200x630.webp
+thumbnail: /images/blog/ley-2573-si-es-fraude-no-se-paga-thumb-600x315.webp
+coverAlt: Documento de la Ley 2573 de 2026 sobre suplantación con calendario de 10 y 20 días hábiles
+tags: Ley 2573, Suplantación, Fraude Bancario, Datacrédito, SFC
+author: Carlos Salamanca
 ---
 
 # Ley 2573 de 2026: si es fraude no se paga y cómo reclamar
