@@ -130,11 +130,20 @@ useHead(() => {
       <template #breadcrumb>
         <BlogBreadcrumb :title="post.title" />
       </template>
+      <template #rail>
+        <BlogPromoRail
+          :slug="post.slug"
+          :title="post.title"
+        />
+      </template>
       <template #cta>
         <BlogArticleCTA
           :slug="post.slug"
           :title="post.title"
         />
+      </template>
+      <template #author>
+        <BlogAuthorCard :author-name="post.author" />
       </template>
     </BlogArticleContent>
   </article>

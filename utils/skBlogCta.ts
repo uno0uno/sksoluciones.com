@@ -1,4 +1,4 @@
-export type SkCtaPlacement = 'mid1' | 'mid2' | 'final'
+export type SkCtaPlacement = 'mid1' | 'mid2' | 'final' | 'rail'
 
 export interface SkCtaContent {
   headline: string
@@ -7,48 +7,48 @@ export interface SkCtaContent {
   button: string
 }
 
-const MICROCOPY = 'Respuesta en 24h. Confidencial y sin compromiso inicial.'
+const MICROCOPY = 'Primer contacto por escrito. Revisamos su caso y le decimos con honestidad si tiene camino.'
 
 function copyForSlug(slug: string): Pick<SkCtaContent, 'headline' | 'body' | 'button'> {
   const s = slug.toLowerCase()
-  if (s.includes('ley-2573')) {
+  if (s.includes('ley-2573') || s.includes('suplantacion')) {
     return {
-      headline: '¿Te aplica la Ley 2573?',
-      body: 'Revisamos si tu caso es suplantación y te armamos el radicado para suspender cobros y reportes.',
+      headline: '¿Le afecta la Ley 2573 de 2026?',
+      body: 'Revisamos si su caso corresponde a suplantación para solicitar la suspensión inmediata de cobros y reportes.',
       button: 'Revisar mi caso',
     }
   }
   if (s.includes('fraude') || s.includes('vishing') || s.includes('phishing') || s.includes('pse') || s.includes('nequi') || s.includes('bancolombia')) {
     return {
-      headline: '¿Te vaciaron la cuenta?',
-      body: 'Revisamos tu caso de fraude bancario en 24h. Si no es viable, te lo decimos con honestidad.',
+      headline: '¿Fue víctima de fraude bancario?',
+      body: 'Revisamos su caso por escrito frente a la entidad y evaluamos la viabilidad jurídica de su reclamación.',
       button: 'Solicitar asesoría',
     }
   }
   if (s.includes('sucesion') || s.includes('herencia')) {
     return {
-      headline: '¿Sucesión sin líos?',
-      body: 'Te damos hoja de ruta y costo cerrado antes de radicar. Evita meses de vueltas.',
+      headline: '¿Tiene dudas sobre una sucesión?',
+      body: 'Le brindamos una hoja de ruta clara antes de radicar ante notaría o juzgado de familia.',
       button: 'Pedir hoja de ruta',
     }
   }
-  if (s.includes('datacredito') || s.includes('datacrédito') || s.includes('reporte')) {
+  if (s.includes('datacredito') || s.includes('datacrédito') || s.includes('reporte') || s.includes('centrales')) {
     return {
-      headline: '¿Reporte en Datacrédito por fraude?',
-      body: 'Revisamos si tu reporte se puede quitar con la marca Víctima de Falsedad Personal y cuándo no.',
+      headline: '¿Reporte en Datacrédito sin aviso previo?',
+      body: 'Revisamos si su reporte se puede retirar por falta de aviso de 20 días o caducidad según la Ley 1266.',
       button: 'Revisar mi reporte',
     }
   }
   if (s.includes('union-marital') || s.includes('marital')) {
     return {
-      headline: '¿Unión marital sin papeles?',
-      body: 'Te decimos si te toca declarar sociedad patrimonial y qué bienes entran antes de que venza el año.',
+      headline: '¿Dudas sobre su unión marital de hecho?',
+      body: 'Evaluamos la existencia de sociedad patrimonial y qué bienes corresponden antes de que venza el término legal.',
       button: 'Consultar mi caso',
     }
   }
   return {
-    headline: '¿Necesitas asesoría legal?',
-    body: 'Carlos Salamanca revisa personalmente cada consulta en menos de 24 horas hábiles.',
+    headline: '¿Requiere orientación jurídica?',
+    body: 'Cuéntenos su caso por escrito. En SK Soluciones lo revisamos y le decimos con honestidad si tiene camino.',
     button: 'Solicitar asesoría',
   }
 }

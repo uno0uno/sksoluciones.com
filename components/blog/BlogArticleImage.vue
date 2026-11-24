@@ -6,9 +6,9 @@ defineProps<{
 </script>
 
 <template>
-  <div class="w-full bg-surface">
-    <div class="page-container py-6 lg:py-8">
-      <div class="aspect-video max-h-[480px] w-full overflow-hidden rounded-xl shadow-sm">
+  <div class="w-full bg-surface/50 border-b border-line/40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 lg:py-10">
+      <div class="aspect-video max-h-[480px] w-full overflow-hidden rounded-2xl border border-line shadow-sm bg-surface">
         <img
           :src="src"
           :alt="alt"
