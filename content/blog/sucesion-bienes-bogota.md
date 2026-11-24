@@ -1,6 +1,6 @@
 ---
-title: "Sucesión de bienes en Bogotá: notaría o juzgado 2026"
-description: "Sucesión en Bogotá: cuándo va por notaría con acuerdo y abogado, cuándo por juzgado y quién puede pedir apertura. Ganancia 15% art307."
+title: "Sucesión de bienes en Bogotá: notaría o juzgado, requisitos y costos 2026"
+description: "Sucesión de bienes en Bogotá: cuándo va por notaría con acuerdo y abogado, cuándo por juzgado, quién puede pedir apertura y ganancia ocasional 15% art 307."
 date: "2026-10-14"
 slug: "sucesion-bienes-bogota"
 cover: "/images/blog/sucesion-bienes-bogota-cover-1200x630.webp"
