@@ -12,12 +12,14 @@ country: CO
 slug: liquidacion-union-marital-de-hecho
 word_count: 1081
 image_prompt: "Fotografía editorial realista, luz natural suave, paleta SK #0B1F33 #9A6B2F #F7F5F2 — Pareja revisando inventario de bienes para liquidación de unión marital frente a abogada con carpeta, formato horizontal 1.91:1"
-image_prompt_generated: false
-image_status: pending
+image_prompt_generated: true
+image_status: done
 image_filename: liquidacion-union-marital-de-hecho-cover-1200x630.webp
 image_format: webp
 image_alt: "Inventario de bienes y documentos para liquidar una sociedad patrimonial ante notario"
 image_title: "Liquidación unión marital de hecho plazos"
+cover_url: https://pub-bc8bb06ab87643fb88805fdddf1cab70.r2.dev/blog/liquidacion-union-marital-de-hecho/liquidacion-union-marital-de-hecho-cover-1200x630.webp
+thumbnail_url: https://pub-bc8bb06ab87643fb88805fdddf1cab70.r2.dev/blog/liquidacion-union-marital-de-hecho/liquidacion-union-marital-de-hecho-thumb-600x315.webp
 sources_used:
   - "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=30896"
   - "https://normas.cra.gov.co/gestor/docs/ley_0054_1990.htm"
