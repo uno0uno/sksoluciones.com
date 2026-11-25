@@ -12,12 +12,14 @@ country: CO
 slug: abogado-para-deudas-bancarias-bogota
 word_count: 679
 image_prompt: "Fotografía editorial realista, luz natural suave, paleta SK #0B1F33 #9A6B2F #F7F5F2 — Abogada revisando extractos bancarios y reporte Datacrédito con cliente en mesa de reunión, formato horizontal 1.91:1"
-image_prompt_generated: false
-image_status: pending
+image_prompt_generated: true
+image_status: done
 image_filename: abogado-para-deudas-bancarias-bogota-cover-1200x630.webp
 image_format: webp
 image_alt: "Abogada para deudas bancarias revisando extractos y reporte Datacrédito en Bogotá"
 image_title: "Abogado deudas bancarias Bogotá"
+cover_url: https://pub-bc8bb06ab87643fb88805fdddf1cab70.r2.dev/blog/abogado-para-deudas-bancarias-bogota/abogado-para-deudas-bancarias-bogota-cover-1200x630.webp
+thumbnail_url: https://pub-bc8bb06ab87643fb88805fdddf1cab70.r2.dev/blog/abogado-para-deudas-bancarias-bogota/abogado-para-deudas-bancarias-bogota-thumb-600x315.webp
 sources_used:
   - "https://www.superfinanciera.gov.co/publicaciones/10104080/consumidor-financierofunciones-jurisdiccionales-abc-para-poner-una-demandaque-debe-hacerque-debe-hacer-problemas-contractuales-con-entidades-vigiladas-10104080/"
   - "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=22632"
