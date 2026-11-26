@@ -30,3 +30,6 @@ logs
 .amplify-hosting
 content/blog/*/img-src/
 **/img-src/
+# R2-only images — no commitear WebP finales (viven en R2 warocol-public-assets)
+content/blog/*/*.webp
+public/images/blog/*.webp
